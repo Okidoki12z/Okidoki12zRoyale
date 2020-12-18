@@ -1,11 +1,32 @@
 package net.mcreator.quarrycraft.procedures;
 
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.minecraftforge.common.MinecraftForge;
+
+import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.particles.ParticleTypes;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.item.ItemEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.block.Blocks;
+
+import net.mcreator.quarrycraft.item.MagicStoneItem;
+import net.mcreator.quarrycraft.QuarrycraftModElements;
+
+import java.util.Random;
+import java.util.Map;
+import java.util.HashMap;
+
 @QuarrycraftModElements.ModElement.Tag
 public class MagicStoneRightClickedOnBlockProcedure extends QuarrycraftModElements.ModElement {
-
 	public MagicStoneRightClickedOnBlockProcedure(QuarrycraftModElements instance) {
 		super(instance, 2);
-
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -35,13 +56,11 @@ public class MagicStoneRightClickedOnBlockProcedure extends QuarrycraftModElemen
 				System.err.println("Failed to load dependency world for procedure MagicStoneRightClickedOnBlock!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 				.getItem() == new ItemStack(MagicStoneItem.block, (int) (1)).getItem())
 				&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.COBBLESTONE.getDefaultState().getBlock()))) {
@@ -60,16 +79,13 @@ public class MagicStoneRightClickedOnBlockProcedure extends QuarrycraftModElemen
 				}
 			}
 		}
-
 	}
 
 	@SubscribeEvent
 	public void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
 		PlayerEntity entity = event.getPlayer();
-
 		if (event.getHand() != entity.getActiveHand())
 			return;
-
 		int i = event.getPos().getX();
 		int j = event.getPos().getY();
 		int k = event.getPos().getZ();
@@ -83,5 +99,4 @@ public class MagicStoneRightClickedOnBlockProcedure extends QuarrycraftModElemen
 		dependencies.put("event", event);
 		this.executeProcedure(dependencies);
 	}
-
 }
