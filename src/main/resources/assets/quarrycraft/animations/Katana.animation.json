@@ -1,0 +1,44 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.Katana.new": {
+			"animation_length": 2.08,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": {
+							"vector": [87.5, 0, 0]
+						},
+						"0.2": {
+							"vector": [87.5, 0, -285]
+						},
+						"0.6": {
+							"vector": [-35, 0, 0]
+						},
+						"0.84": {
+							"vector": [32.5, -2.5, 90]
+						},
+						"1.04": {
+							"vector": [130, -2.5, 90]
+						},
+						"1.6": {
+							"vector": [87.5, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [8, 0, 6]
+						},
+						"0.2": {
+							"vector": [8, 0, -10]
+						},
+						"1.6": {
+							"vector": [8, 0, 6]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
