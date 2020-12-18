@@ -8,21 +8,37 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "magic_stone"
+      "registry_name": "alchemy_stone"
     },
     {
-      "name": "MagicStoneRightClickedInAir",
+      "name": "MagicStoneRightClickedOnBlock",
       "type": "procedure",
-      "sortid": 1,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "magic_stone_right_clicked_in_air",
+      "registry_name": "magic_stone_right_clicked_on_block",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -32,7 +48,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.quarrycraft.magic_stone": "Magic Stone"
+      "item.quarrycraft.alchemy_stone": "Magic Stone"
     }
   },
   "workspaceSettings": {
