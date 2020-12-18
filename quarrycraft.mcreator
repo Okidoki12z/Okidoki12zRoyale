@@ -26,13 +26,23 @@
           }
         ]
       }
+    },
+    {
+      "name": "Copperore",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperore"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.quarrycraft.magic_stone": "Magic Stone"
+      "item.quarrycraft.magic_stone": "Magic Stone",
+      "block.quarrycraft.copperore": "Copperore"
     }
   },
   "workspaceSettings": {
