@@ -129,6 +129,24 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "Coppersword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coppersword"
+    },
+    {
+      "name": "Copperhelmet1",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperhelmet_1"
     }
   ],
   "variable_elements": [],
@@ -143,6 +161,7 @@
       "item.quarrycraft.copperhelmet_boots": "Copper Boots",
       "item.quarrycraft.magic_stone": "Magic Stone",
       "item.quarrycraft.copperingot": "Copper ingot",
+      "item.quarrycraft.coppersword": "Copper sword",
       "block.quarrycraft.copperore": "Copperore",
       "item.quarrycraft.alchemy_stone": "Alchemy Stone"
     }
