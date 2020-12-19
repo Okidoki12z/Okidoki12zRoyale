@@ -1,13 +1,12 @@
 {
   "item.quarrycraft.copperhelmet_helmet": "Copper Helmet",
   "item.quarrycraft.copperhelmet_leggings": "Copper Leggings",
+  "block.quarrycraft.copperblockore": "Copper block ",
   "item.quarrycraft.alchemy_stone_broken": "Broken Alchemy Stone",
+  "item.quarrycraft.copperhelmet_chestplate": "Copper Body",
   "item.quarrycraft.copperhelmet_boots": "Copper Boots",
   "item.quarrycraft.magic_stone": "Magic Stone",
-  "block.quarrycraft.copperore": "Copperore",
-  "block.quarrycraft.copperblockore": "Copper block ",
-  "block.quarrycraft.fusion_table": "Fusion Table",
-  "item.quarrycraft.copperhelmet_chestplate": "Copper Body",
   "item.quarrycraft.copperingot": "Copper ingot",
+  "block.quarrycraft.copperore": "Copperore",
   "item.quarrycraft.alchemy_stone": "Alchemy Stone"
 }

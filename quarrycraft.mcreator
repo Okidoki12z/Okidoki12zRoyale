@@ -62,48 +62,6 @@
       "registry_name": "alchemy_stone_broken"
     },
     {
-      "name": "FusionTable",
-      "type": "block",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fusion_table"
-    },
-    {
-      "name": "OnButtonClicked",
-      "type": "procedure",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "on_button_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "FusionTableGui",
       "type": "gui",
       "sortid": 5,
@@ -179,14 +137,13 @@
     "en_us": {
       "item.quarrycraft.copperhelmet_helmet": "Copper Helmet",
       "item.quarrycraft.copperhelmet_leggings": "Copper Leggings",
+      "block.quarrycraft.copperblockore": "Copper block ",
       "item.quarrycraft.alchemy_stone_broken": "Broken Alchemy Stone",
+      "item.quarrycraft.copperhelmet_chestplate": "Copper Body",
       "item.quarrycraft.copperhelmet_boots": "Copper Boots",
       "item.quarrycraft.magic_stone": "Magic Stone",
-      "block.quarrycraft.copperore": "Copperore",
-      "block.quarrycraft.copperblockore": "Copper block ",
-      "block.quarrycraft.fusion_table": "Fusion Table",
-      "item.quarrycraft.copperhelmet_chestplate": "Copper Body",
       "item.quarrycraft.copperingot": "Copper ingot",
+      "block.quarrycraft.copperore": "Copperore",
       "item.quarrycraft.alchemy_stone": "Alchemy Stone"
     }
   },
