@@ -25,6 +25,10 @@
             "type": "entity"
           },
           {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -62,6 +66,48 @@
       "registry_name": "alchemy_stone_broken"
     },
     {
+      "name": "FusionTable",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_table"
+    },
+    {
+      "name": "OnButtonClicked",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "on_button_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
       "name": "FusionTableGui",
       "type": "gui",
       "sortid": 5,
@@ -80,13 +126,262 @@
       "registry_name": "copperblockore"
     },
     {
-      "name": "Copperingot",
+      "name": "OnButtonClicked2",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "on_button_clicked_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnButtonClicked3",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "on_button_clicked_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlchemyStone1",
       "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy_stone_1"
+    },
+    {
+      "name": "AlchemyStone2",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy_stone_2"
+    },
+    {
+      "name": "AlchemyStone3",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy_stone_3"
+    },
+    {
+      "name": "AlchemyStoneBroken2",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy_stone_broken_2"
+    },
+    {
+      "name": "AlchemyStoneBroken1",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy_stone_broken_1"
+    },
+    {
+      "name": "AlchemyStone1RightClickedInAir",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy_stone_1_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlchemyStoneBroken3",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy_stone_broken_3"
+    },
+    {
+      "name": "Alchemystone2rightclickedinair",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemystone_2rightclickedinair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crystalupgraderpink",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystalupgraderpink"
+    },
+    {
+      "name": "CrystalUpgrader",
+      "type": "block",
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "copperingot"
+      "registry_name": "crystal_upgrader_blue"
+    },
+    {
+      "name": "Cruystalupgraderred",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cruystalupgraderred"
+    },
+    {
+      "name": "Alchemystone3rightclickedinair",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemystone_3rightclickedinair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     },
     {
       "name": "Copperblockrecipe",
@@ -116,53 +411,34 @@
       "registry_name": "copperblockrecipe_2"
     },
     {
-      "name": "Copperhelmet",
-      "type": "armor",
-      "sortid": 10,
+      "name": "Copperingot",
+      "type": "item",
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "copperhelmet",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "Coppersword",
-      "type": "tool",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "coppersword"
-    },
-    {
-      "name": "Copperhelmet1",
-      "type": "recipe",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "copperhelmet_1"
+      "registry_name": "copperingot"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.quarrycraft.copperhelmet_helmet": "Copper Helmet",
-      "item.quarrycraft.copperhelmet_leggings": "Copper Leggings",
-      "block.quarrycraft.copperblockore": "Copper block ",
+      "item.quarrycraft.alchemy_stone_2": "Alchemy Stone",
       "item.quarrycraft.alchemy_stone_broken": "Broken Alchemy Stone",
-      "item.quarrycraft.copperhelmet_chestplate": "Copper Body",
-      "item.quarrycraft.copperhelmet_boots": "Copper Boots",
+      "item.quarrycraft.alchemy_stone_1": "Alchemy Stone",
+      "item.quarrycraft.alchemy_stone_broken_3": "Broken Alchemy Stone",
+      "block.quarrycraft.crystal_upgrader_blue": "Crystal Upgrader",
+      "block.quarrycraft.crystalupgraderpink": "Crystalupgraderpink",
+      "item.quarrycraft.alchemy_stone_broken_2": "Broken Alchemy Stone",
+      "item.quarrycraft.alchemy_stone_3": "Alchemy Stone",
+      "item.quarrycraft.alchemy_stone_broken_1": "Broken Alchemy Stone",
       "item.quarrycraft.magic_stone": "Magic Stone",
-      "item.quarrycraft.copperingot": "Copper ingot",
-      "item.quarrycraft.coppersword": "Copper sword",
       "block.quarrycraft.copperore": "Copperore",
+      "block.quarrycraft.copperblockore": "Copper block",
+      "block.quarrycraft.fusion_table": "Fusion Table",
+      "block.quarrycraft.cruystalupgraderred": "Cruystalupgraderred",
+      "item.quarrycraft.copperingot": "Copper ingot",
       "item.quarrycraft.alchemy_stone": "Alchemy Stone"
     }
   },
