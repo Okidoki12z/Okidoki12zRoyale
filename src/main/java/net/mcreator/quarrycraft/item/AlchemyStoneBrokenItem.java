@@ -16,7 +16,7 @@ public class AlchemyStoneBrokenItem extends QuarrycraftModElements.ModElement {
 	@ObjectHolder("quarrycraft:alchemy_stone_broken")
 	public static final Item block = null;
 	public AlchemyStoneBrokenItem(QuarrycraftModElements instance) {
-		super(instance, 1);
+		super(instance, 3);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class CopperblockoreBlock extends QuarrycraftModElements.ModElement {
 	@ObjectHolder("quarrycraft:copperblockore")
 	public static final Block block = null;
 	public CopperblockoreBlock(QuarrycraftModElements instance) {
-		super(instance, 15);
+		super(instance, 6);
 	}
 
 	@Override

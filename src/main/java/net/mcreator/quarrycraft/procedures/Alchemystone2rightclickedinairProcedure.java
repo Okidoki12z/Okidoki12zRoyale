@@ -1,11 +1,31 @@
 package net.mcreator.quarrycraft.procedures;
 
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.items.ItemHandlerHelper;
+
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.particles.ParticleTypes;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.quarrycraft.item.AlchemyStoneBroken2Item;
+import net.mcreator.quarrycraft.item.AlchemyStone2Item;
+import net.mcreator.quarrycraft.block.CrystalupgraderpinkBlock;
+import net.mcreator.quarrycraft.QuarrycraftModElements;
+
+import java.util.Random;
+import java.util.Map;
+
 @QuarrycraftModElements.ModElement.Tag
 public class Alchemystone2rightclickedinairProcedure extends QuarrycraftModElements.ModElement {
-
 	public Alchemystone2rightclickedinairProcedure(QuarrycraftModElements instance) {
 		super(instance, 22);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -39,19 +59,17 @@ public class Alchemystone2rightclickedinairProcedure extends QuarrycraftModEleme
 				System.err.println("Failed to load dependency world for procedure Alchemystone2rightclickedinair!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 				.getItem() == new ItemStack(AlchemyStone2Item.block, (int) (1)).getItem())
 				&& ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
 						.getItem() == new ItemStack(Items.IRON_INGOT, (int) (1)).getItem())
-						&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == CrystalupgraderpinkItem.block
+						&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == CrystalupgraderpinkBlock.block
 								.getDefaultState().getBlock())))) {
 			{
 				ItemStack _ist = (itemstack);
@@ -98,7 +116,5 @@ public class Alchemystone2rightclickedinairProcedure extends QuarrycraftModEleme
 						SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 			}
 		}
-
 	}
-
 }

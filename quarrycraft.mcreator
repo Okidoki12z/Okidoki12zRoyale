@@ -519,19 +519,67 @@
           }
         ]
       }
+    },
+    {
+      "name": "Copperaxe1",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperaxe_1"
+    },
+    {
+      "name": "Copperpickaxe1",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperpickaxe_1"
+    },
+    {
+      "name": "Coppershovel1",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coppershovel_1"
+    },
+    {
+      "name": "Copperhoe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperhoe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.quarrycraft.alchemy_stone_2": "Alchemy Stone",
-      "item.quarrycraft.copperhelmet_helmet": "Copper Helmet",
       "item.quarrycraft.copperhelmet_leggings": "Copper Leggings",
-      "item.quarrycraft.alchemy_stone_broken": "Broken Alchemy Stone",
+      "item.quarrycraft.copperhelmet_helmet": "Copper Helmet",
+      "item.quarrycraft.alchemy_stone_2": "Alchemy Stone",
       "item.quarrycraft.alchemy_stone_1": "Alchemy Stone",
+      "item.quarrycraft.alchemy_stone_broken": "Broken Alchemy Stone",
+      "block.quarrycraft.crystalupgraderpink": "Crystalupgraderpink",
       "item.quarrycraft.alchemy_stone_3": "Alchemy Stone",
+      "item.quarrycraft.cupperhoe": "Cupperhoe",
+      "item.quarrycraft.coppershovel": "Coppershovel",
+      "block.quarrycraft.fusion_table": "Fusion Table",
+      "item.quarrycraft.copperpickaxe": "Copperpickaxe",
+      "block.quarrycraft.cruystalupgraderred": "Cruystalupgraderred",
+      "item.quarrycraft.alchemy_stone_broken_3": "Broken Alchemy Stone",
+      "item.quarrycraft.alchemy_stone_broken_2": "Broken Alchemy Stone",
+      "block.quarrycraft.crystal_upgrader_blue": "Crystal Upgrader",
+      "item.quarrycraft.alchemy_stone_broken_1": "Broken Alchemy Stone",
+      "item.quarrycraft.copperaxe": "Copperaxe",
       "item.quarrycraft.copperhelmet_boots": "Copper Boots",
+      "itemGroup.tabwtf": "WTF",
       "item.quarrycraft.magic_stone": "Magic Stone",
       "block.quarrycraft.copperore": "Copperore",
       "block.quarrycraft.copperblockore": "Copper block ",

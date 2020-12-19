@@ -30,7 +30,7 @@ public class AlchemyStone3Item extends QuarrycraftModElements.ModElement {
 	@ObjectHolder("quarrycraft:alchemy_stone_3")
 	public static final Item block = null;
 	public AlchemyStone3Item(QuarrycraftModElements instance) {
-		super(instance, 4);
+		super(instance, 8);
 	}
 
 	@Override

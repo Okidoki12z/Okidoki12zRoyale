@@ -1,9 +1,17 @@
 
 package net.mcreator.quarrycraft.itemgroup;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+
+import net.mcreator.quarrycraft.item.AlchemyStone1Item;
+import net.mcreator.quarrycraft.QuarrycraftModElements;
+
 @QuarrycraftModElements.ModElement.Tag
 public class WTFItemGroup extends QuarrycraftModElements.ModElement {
-
 	public WTFItemGroup(QuarrycraftModElements instance) {
 		super(instance, 27);
 	}
@@ -23,7 +31,5 @@ public class WTFItemGroup extends QuarrycraftModElements.ModElement {
 			}
 		};
 	}
-
 	public static ItemGroup tab;
-
 }

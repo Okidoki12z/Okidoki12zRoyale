@@ -31,7 +31,7 @@ import java.util.HashMap;
 @QuarrycraftModElements.ModElement.Tag
 public class MagicStoneRightClickedOnBlockProcedure extends QuarrycraftModElements.ModElement {
 	public MagicStoneRightClickedOnBlockProcedure(QuarrycraftModElements instance) {
-		super(instance, 16);
+		super(instance, 2);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
