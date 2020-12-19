@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "magicstone",
+    "texture": "magicstonepink",
     "customModelName": "Normal",
     "name": "Alchemy Stone",
     "rarity": "COMMON",
@@ -24,14 +24,14 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Transform cobblestone into coal"
+      "Transform iron into gold"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedOnBlock": {
-      "name": "MagicStoneRightClickedOnBlock"
+      "name": "Alchemystone2rightclickedinair"
     }
   }
 }
