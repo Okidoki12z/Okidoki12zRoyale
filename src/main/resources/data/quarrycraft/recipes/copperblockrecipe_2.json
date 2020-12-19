@@ -1,0 +1,16 @@
+{
+  "group": "quarrycraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "quarrycraft:copperblockore"
+    }
+  },
+  "result": {
+    "item": "quarrycraft:copperingot",
+    "count": 9
+  }
+}

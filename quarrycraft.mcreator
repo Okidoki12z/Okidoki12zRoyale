@@ -83,6 +83,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -113,16 +129,74 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copperblockore"
+    },
+    {
+      "name": "Copperingot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperingot"
+    },
+    {
+      "name": "Copperblockrecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperblockrecipe"
+    },
+    {
+      "name": "Copperblockrecipe1",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperblockrecipe_1"
+    },
+    {
+      "name": "Copperblockrecipe2",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperblockrecipe_2"
+    },
+    {
+      "name": "Copperhelmet",
+      "type": "armor",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperhelmet",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.quarrycraft.copperhelmet_helmet": "Copperhelmet Helmet",
+      "item.quarrycraft.copperhelmet_leggings": "Copperhelmet Leggings",
       "item.quarrycraft.alchemy_stone_broken": "Broken Alchemy Stone",
-      "block.quarrycraft.fusion_table": "Fusion Table",
+      "item.quarrycraft.copperhelmet_boots": "Copperhelmet Boots",
       "item.quarrycraft.magic_stone": "Magic Stone",
       "block.quarrycraft.copperore": "Copperore",
+      "block.quarrycraft.transmutation_upgrader": "Transmutation Upgrader",
+      "block.quarrycraft.copperblockore": "Copper block ",
+      "block.quarrycraft.fusion_table": "Fusion Table",
+      "item.quarrycraft.copperhelmet_chestplate": "Copperhelmet Body",
+      "item.quarrycraft.copperingot": "Copper ingot",
       "item.quarrycraft.alchemy_stone": "Alchemy Stone"
     }
   },
