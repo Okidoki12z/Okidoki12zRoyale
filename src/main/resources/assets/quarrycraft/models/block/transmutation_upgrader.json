@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "quarrycraft:blocks/katana",
+    "up": "quarrycraft:blocks/katana",
+    "north": "quarrycraft:blocks/katana",
+    "east": "quarrycraft:blocks/katana",
+    "south": "quarrycraft:blocks/katana",
+    "west": "quarrycraft:blocks/katana",
+    "particle": "quarrycraft:blocks/katana"
+  }
+}

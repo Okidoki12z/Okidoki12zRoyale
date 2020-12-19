@@ -83,6 +83,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -95,6 +111,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "fusion_table_gui"
+    },
+    {
+      "name": "TransmutationUpgrader",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "transmutation_upgrader"
     }
   ],
   "variable_elements": [],
@@ -105,7 +130,8 @@
       "block.quarrycraft.fusion_table": "Fusion Table",
       "item.quarrycraft.magic_stone": "Magic Stone",
       "block.quarrycraft.copperore": "Copperore",
-      "item.quarrycraft.alchemy_stone": "Alchemy Stone"
+      "item.quarrycraft.alchemy_stone": "Alchemy Stone",
+      "block.quarrycraft.transmutation_upgrader": "Transmutation Upgrader"
     }
   },
   "workspaceSettings": {

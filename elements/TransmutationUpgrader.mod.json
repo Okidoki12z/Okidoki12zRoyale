@@ -2,12 +2,12 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "enchanting_table_bottom",
-    "textureTop": "enchanting_table_top",
-    "textureLeft": "jjjaslkdkasiodkjaos",
-    "textureFront": "jjjaslkdkasiodkjaos",
-    "textureRight": "jjjaslkdkasiodkjaos",
-    "textureBack": "jjjaslkdkasiodkjaos",
+    "texture": "katana",
+    "textureTop": "katana",
+    "textureLeft": "katana",
+    "textureFront": "katana",
+    "textureRight": "katana",
+    "textureBack": "katana",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -24,16 +24,16 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Fusion Table",
+    "name": "Transmutation Upgrader",
     "specialInfo": [],
-    "hardness": 2.5,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -63,7 +63,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "luminance": 0.0,
     "unbreakable": false,
@@ -76,18 +76,14 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": false,
-    "guiBoundTo": "FusionTableGui",
-    "openGUIOnRightClick": true,
-    "inventorySize": 2,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [
-      1
-    ],
-    "inventoryInSlotIDs": [
-      0
-    ],
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,

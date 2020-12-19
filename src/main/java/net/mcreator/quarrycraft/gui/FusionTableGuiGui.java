@@ -350,7 +350,7 @@ public class FusionTableGuiGui extends QuarrycraftModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 15, this.guiTop + 43, 45, 20, "Fuze", e -> {
+			this.addButton(new Button(this.guiLeft + 14, this.guiTop + 44, 45, 20, "Fuze", e -> {
 				QuarrycraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));
@@ -447,6 +447,10 @@ public class FusionTableGuiGui extends QuarrycraftModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
 				OnButtonClickedProcedure.executeProcedure($_dependencies);
 			}
 		}
