@@ -106,10 +106,6 @@ public class Alchemystone2rightclickedinairProcedure extends QuarrycraftModEleme
 				_setstack.setCount((int) 1);
 				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 			}
-			if (entity instanceof PlayerEntity) {
-				ItemStack _stktoremove = new ItemStack(AlchemyStone2Item.block, (int) (1));
-				((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);
-			}
 			if (!world.getWorld().isRemote) {
 				world.playSound(null, new BlockPos((int) x, (int) y, (int) z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.shield.break")),
