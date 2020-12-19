@@ -31,7 +31,7 @@ import java.util.HashMap;
 @QuarrycraftModElements.ModElement.Tag
 public class MagicStoneRightClickedOnBlockProcedure extends QuarrycraftModElements.ModElement {
 	public MagicStoneRightClickedOnBlockProcedure(QuarrycraftModElements instance) {
-		super(instance, 2);
+		super(instance, 16);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -99,10 +99,6 @@ public class MagicStoneRightClickedOnBlockProcedure extends QuarrycraftModElemen
 				ItemStack _setstack = new ItemStack(AlchemyStoneBrokenItem.block, (int) (1));
 				_setstack.setCount((int) 1);
 				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
-			}
-			if (entity instanceof PlayerEntity) {
-				ItemStack _stktoremove = new ItemStack(MagicStoneItem.block, (int) (1));
-				((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);
 			}
 			if (!world.getWorld().isRemote) {
 				world.playSound(null, new BlockPos((int) x, (int) y, (int) z),

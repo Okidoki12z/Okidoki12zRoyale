@@ -8,7 +8,7 @@
     "name": "Broken Alchemy Stone",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:WTF"
     },
     "stackSize": 1,
     "enchantability": 0,

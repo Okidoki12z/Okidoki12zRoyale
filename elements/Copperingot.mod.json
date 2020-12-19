@@ -8,7 +8,7 @@
     "name": "Copper ingot",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:WTF"
     },
     "stackSize": 64,
     "enchantability": 0,
