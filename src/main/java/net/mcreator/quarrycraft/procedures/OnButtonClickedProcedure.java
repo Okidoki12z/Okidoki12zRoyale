@@ -12,7 +12,6 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.quarrycraft.item.MagicStoneItem;
 import net.mcreator.quarrycraft.item.AlchemyStoneBrokenItem;
-import net.mcreator.quarrycraft.block.TransmutationUpgraderBlock;
 import net.mcreator.quarrycraft.block.CopperoreBlock;
 import net.mcreator.quarrycraft.QuarrycraftModElements;
 
@@ -116,17 +115,17 @@ public class OnButtonClickedProcedure extends QuarrycraftModElements.ModElement 
 				}
 			}.getItemStack((int) (0))).getItem() == new ItemStack(Items.DIAMOND, (int) (1)).getItem()) && (((world
 					.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z)))
-							.getBlock() == TransmutationUpgraderBlock.block.getDefaultState().getBlock())
-					|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == TransmutationUpgraderBlock.block
+							.getBlock() == TransmutationUpgraderItem.block.getDefaultState().getBlock())
+					|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == TransmutationUpgraderItem.block
 							.getDefaultState().getBlock())
-							|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == TransmutationUpgraderBlock.block
+							|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == TransmutationUpgraderItem.block
 									.getDefaultState().getBlock())
 									|| (((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z)))
-											.getBlock() == TransmutationUpgraderBlock.block.getDefaultState().getBlock())
+											.getBlock() == TransmutationUpgraderItem.block.getDefaultState().getBlock())
 											|| (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z)))
-													.getBlock() == TransmutationUpgraderBlock.block.getDefaultState().getBlock())
+													.getBlock() == TransmutationUpgraderItem.block.getDefaultState().getBlock())
 													|| ((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1))))
-															.getBlock() == TransmutationUpgraderBlock.block.getDefaultState().getBlock())))))))) {
+															.getBlock() == TransmutationUpgraderItem.block.getDefaultState().getBlock())))))))) {
 				{
 					Entity _ent = entity;
 					if (_ent instanceof ServerPlayerEntity) {
