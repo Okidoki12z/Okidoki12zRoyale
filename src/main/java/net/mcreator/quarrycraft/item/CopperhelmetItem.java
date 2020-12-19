@@ -40,7 +40,7 @@ public class CopperhelmetItem extends QuarrycraftModElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{1, 3, 5, 2}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {

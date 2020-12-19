@@ -147,22 +147,98 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copperhelmet_1"
+    },
+    {
+      "name": "Copperchestplate",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperchestplate"
+    },
+    {
+      "name": "Copperleggings",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperleggings"
+    },
+    {
+      "name": "Copperboots",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperboots"
+    },
+    {
+      "name": "Coppersword1",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coppersword_1"
+    },
+    {
+      "name": "Copperpickaxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperpickaxe"
+    },
+    {
+      "name": "Copperaxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperaxe"
+    },
+    {
+      "name": "Coppershovel",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coppershovel"
+    },
+    {
+      "name": "Cupperhoe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cupperhoe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.quarrycraft.copperhelmet_helmet": "Copper Helmet",
       "item.quarrycraft.copperhelmet_leggings": "Copper Leggings",
-      "block.quarrycraft.copperblockore": "Copper block ",
+      "item.quarrycraft.copperhelmet_helmet": "Copper Helmet",
       "item.quarrycraft.alchemy_stone_broken": "Broken Alchemy Stone",
-      "item.quarrycraft.copperhelmet_chestplate": "Copper Body",
+      "item.quarrycraft.copperaxe": "Copperaxe",
       "item.quarrycraft.copperhelmet_boots": "Copper Boots",
+      "item.quarrycraft.cupperhoe": "Cupperhoe",
       "item.quarrycraft.magic_stone": "Magic Stone",
+      "block.quarrycraft.copperore": "Copperore",
+      "item.quarrycraft.coppershovel": "Coppershovel",
+      "block.quarrycraft.copperblockore": "Copper block ",
+      "item.quarrycraft.copperpickaxe": "Copperpickaxe",
+      "item.quarrycraft.copperhelmet_chestplate": "Copper Body",
       "item.quarrycraft.copperingot": "Copper ingot",
       "item.quarrycraft.coppersword": "Copper sword",
-      "block.quarrycraft.copperore": "Copperore",
       "item.quarrycraft.alchemy_stone": "Alchemy Stone"
     }
   },

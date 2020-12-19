@@ -10,7 +10,7 @@
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -23,15 +23,10 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Transform cobblestone into coal"
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "onRightClickedOnBlock": {
-      "name": "MagicStoneRightClickedOnBlock"
-    }
+    "inventoryStackSize": 64
   }
 }

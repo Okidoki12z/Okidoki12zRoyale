@@ -40,9 +40,9 @@
     "bootsModelTexture": "From armor",
     "maxDamage": 7,
     "damageValueHelmet": 2,
-    "damageValueBody": 6,
-    "damageValueLeggings": 5,
-    "damageValueBoots": 2,
+    "damageValueBody": 5,
+    "damageValueLeggings": 3,
+    "damageValueBoots": 1,
     "enchantability": 9,
     "toughness": 0.0,
     "equipSound": {
