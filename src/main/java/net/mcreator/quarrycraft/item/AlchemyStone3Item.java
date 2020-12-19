@@ -12,13 +12,13 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.quarrycraft.procedures.Alchemystone3rightclickedinairProcedure;
+import net.mcreator.quarrycraft.itemgroup.WTFItemGroup;
 import net.mcreator.quarrycraft.QuarrycraftModElements;
 
 import java.util.Map;
@@ -30,7 +30,7 @@ public class AlchemyStone3Item extends QuarrycraftModElements.ModElement {
 	@ObjectHolder("quarrycraft:alchemy_stone_3")
 	public static final Item block = null;
 	public AlchemyStone3Item(QuarrycraftModElements instance) {
-		super(instance, 12);
+		super(instance, 4);
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class AlchemyStone3Item extends QuarrycraftModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.BUILDING_BLOCKS).maxDamage(10).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(WTFItemGroup.tab).maxDamage(10).rarity(Rarity.COMMON));
 			setRegistryName("alchemy_stone_3");
 		}
 

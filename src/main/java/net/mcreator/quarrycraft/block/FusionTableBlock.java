@@ -23,7 +23,6 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.inventory.container.INamedContainerProvider;
@@ -38,6 +37,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.quarrycraft.itemgroup.WTFItemGroup;
 import net.mcreator.quarrycraft.gui.FusionTableGuiGui;
 import net.mcreator.quarrycraft.QuarrycraftModElements;
 
@@ -51,14 +51,13 @@ public class FusionTableBlock extends QuarrycraftModElements.ModElement {
 	@ObjectHolder("quarrycraft:fusion_table")
 	public static final Block block = null;
 	public FusionTableBlock(QuarrycraftModElements instance) {
-		super(instance, 4);
+		super(instance, 9);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(WTFItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

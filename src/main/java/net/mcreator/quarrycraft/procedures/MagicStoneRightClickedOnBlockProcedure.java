@@ -2,7 +2,11 @@ package net.mcreator.quarrycraft.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.items.ItemHandlerHelper;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.minecraftforge.common.MinecraftForge;
 
+import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundCategory;
@@ -22,22 +26,19 @@ import net.mcreator.quarrycraft.QuarrycraftModElements;
 
 import java.util.Random;
 import java.util.Map;
+import java.util.HashMap;
 
 @QuarrycraftModElements.ModElement.Tag
 public class MagicStoneRightClickedOnBlockProcedure extends QuarrycraftModElements.ModElement {
 	public MagicStoneRightClickedOnBlockProcedure(QuarrycraftModElements instance) {
-		super(instance, 2);
+		super(instance, 16);
+		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
 				System.err.println("Failed to load dependency entity for procedure MagicStoneRightClickedOnBlock!");
-			return;
-		}
-		if (dependencies.get("itemstack") == null) {
-			if (!dependencies.containsKey("itemstack"))
-				System.err.println("Failed to load dependency itemstack for procedure MagicStoneRightClickedOnBlock!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
@@ -61,7 +62,6 @@ public class MagicStoneRightClickedOnBlockProcedure extends QuarrycraftModElemen
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
@@ -92,9 +92,9 @@ public class MagicStoneRightClickedOnBlockProcedure extends QuarrycraftModElemen
 					_ist.setDamage(0);
 				}
 			}
-			(itemstack).getOrCreateTag().putDouble("Durability", (((itemstack).getOrCreateTag().getDouble("Durability")) + 1));
+			entity.getPersistentData().putDouble("Durability", ((entity.getPersistentData().getDouble("Durability")) + 1));
 		}
-		if ((((itemstack).getOrCreateTag().getDouble("Durability")) == 10)) {
+		if (((entity.getPersistentData().getDouble("Durability")) == 10)) {
 			if (entity instanceof PlayerEntity) {
 				ItemStack _setstack = new ItemStack(AlchemyStoneBrokenItem.block, (int) (1));
 				_setstack.setCount((int) 1);
@@ -113,7 +113,26 @@ public class MagicStoneRightClickedOnBlockProcedure extends QuarrycraftModElemen
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.shield.break")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 			}
-			(itemstack).getOrCreateTag().putDouble("Durability", 0);
+			entity.getPersistentData().putDouble("Durability", 0);
 		}
+	}
+
+	@SubscribeEvent
+	public void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
+		PlayerEntity entity = event.getPlayer();
+		if (event.getHand() != entity.getActiveHand())
+			return;
+		int i = event.getPos().getX();
+		int j = event.getPos().getY();
+		int k = event.getPos().getZ();
+		World world = event.getWorld();
+		Map<String, Object> dependencies = new HashMap<>();
+		dependencies.put("x", i);
+		dependencies.put("y", j);
+		dependencies.put("z", k);
+		dependencies.put("world", world);
+		dependencies.put("entity", entity);
+		dependencies.put("event", event);
+		this.executeProcedure(dependencies);
 	}
 }

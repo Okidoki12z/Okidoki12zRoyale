@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.quarrycraft.itemgroup.WTFItemGroup;
 import net.mcreator.quarrycraft.QuarrycraftModElements;
 
 @QuarrycraftModElements.ModElement.Tag
@@ -16,7 +16,7 @@ public class CopperingotItem extends QuarrycraftModElements.ModElement {
 	@ObjectHolder("quarrycraft:copperingot")
 	public static final Item block = null;
 	public CopperingotItem(QuarrycraftModElements instance) {
-		super(instance, 7);
+		super(instance, 14);
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class CopperingotItem extends QuarrycraftModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(WTFItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("copperingot");
 		}
 

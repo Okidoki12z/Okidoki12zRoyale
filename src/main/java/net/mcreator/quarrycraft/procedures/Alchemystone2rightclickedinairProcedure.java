@@ -25,7 +25,7 @@ import java.util.Map;
 @QuarrycraftModElements.ModElement.Tag
 public class Alchemystone2rightclickedinairProcedure extends QuarrycraftModElements.ModElement {
 	public Alchemystone2rightclickedinairProcedure(QuarrycraftModElements instance) {
-		super(instance, 17);
+		super(instance, 22);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

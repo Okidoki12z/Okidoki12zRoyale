@@ -24,7 +24,7 @@ import java.util.HashMap;
 @QuarrycraftModElements.ModElement.Tag
 public class OnButtonClickedProcedure extends QuarrycraftModElements.ModElement {
 	public OnButtonClickedProcedure(QuarrycraftModElements instance) {
-		super(instance, 5);
+		super(instance, 17);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

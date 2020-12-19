@@ -12,13 +12,13 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.quarrycraft.procedures.MagicStoneRightClickedOnBlockProcedure;
+import net.mcreator.quarrycraft.itemgroup.WTFItemGroup;
 import net.mcreator.quarrycraft.QuarrycraftModElements;
 
 import java.util.Map;
@@ -39,7 +39,7 @@ public class MagicStoneItem extends QuarrycraftModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.BUILDING_BLOCKS).maxDamage(10).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(WTFItemGroup.tab).maxDamage(10).rarity(Rarity.COMMON));
 			setRegistryName("alchemy_stone");
 		}
 
@@ -78,7 +78,6 @@ public class MagicStoneItem extends QuarrycraftModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("itemstack", itemstack);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
