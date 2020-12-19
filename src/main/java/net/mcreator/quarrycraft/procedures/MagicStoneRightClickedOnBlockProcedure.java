@@ -1,5 +1,7 @@
 package net.mcreator.quarrycraft.procedures;
 
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.items.ItemHandlerHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.common.MinecraftForge;
@@ -7,6 +9,8 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
@@ -17,6 +21,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.quarrycraft.item.MagicStoneItem;
+import net.mcreator.quarrycraft.item.AlchemyStoneBrokenItem;
 import net.mcreator.quarrycraft.QuarrycraftModElements;
 
 import java.util.Random;
@@ -71,6 +76,15 @@ public class MagicStoneRightClickedOnBlockProcedure extends QuarrycraftModElemen
 				world.addEntity(entityToSpawn);
 			}
 			world.addParticle(ParticleTypes.EXPLOSION, x, y, z, 0, 1, 0);
+			if (!world.getWorld().isRemote) {
+				world.playSound(null, new BlockPos((int) x, (int) y, (int) z),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.step")),
+						SoundCategory.NEUTRAL, (float) 1, (float) 1);
+			} else {
+				world.getWorld().playSound(x, y, z,
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.step")),
+						SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
+			}
 			{
 				ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
 				if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
@@ -78,6 +92,28 @@ public class MagicStoneRightClickedOnBlockProcedure extends QuarrycraftModElemen
 					_ist.setDamage(0);
 				}
 			}
+			entity.getPersistentData().putDouble("Durability", ((entity.getPersistentData().getDouble("Durability")) + 1));
+		}
+		if (((entity.getPersistentData().getDouble("Durability")) == 10)) {
+			if (entity instanceof PlayerEntity) {
+				ItemStack _setstack = new ItemStack(AlchemyStoneBrokenItem.block, (int) (1));
+				_setstack.setCount((int) 1);
+				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+			}
+			if (entity instanceof PlayerEntity) {
+				ItemStack _stktoremove = new ItemStack(MagicStoneItem.block, (int) (1));
+				((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);
+			}
+			if (!world.getWorld().isRemote) {
+				world.playSound(null, new BlockPos((int) x, (int) y, (int) z),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.shield.break")),
+						SoundCategory.NEUTRAL, (float) 1, (float) 1);
+			} else {
+				world.getWorld().playSound(x, y, z,
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.shield.break")),
+						SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
+			}
+			entity.getPersistentData().putDouble("Durability", 0);
 		}
 	}
 

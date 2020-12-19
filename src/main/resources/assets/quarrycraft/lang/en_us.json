@@ -1,5 +1,7 @@
 {
+  "item.quarrycraft.alchemy_stone_broken": "Broken Alchemy Stone",
+  "block.quarrycraft.fusion_table": "Fusion Table",
   "item.quarrycraft.magic_stone": "Magic Stone",
   "block.quarrycraft.copperore": "Copperore",
-  "item.quarrycraft.alchemy_stone": "Magic Stone"
+  "item.quarrycraft.alchemy_stone": "Alchemy Stone"
 }

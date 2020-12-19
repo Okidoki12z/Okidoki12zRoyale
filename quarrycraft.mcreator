@@ -51,15 +51,61 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copperore"
+    },
+    {
+      "name": "AlchemyStoneBroken",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy_stone_broken"
+    },
+    {
+      "name": "FusionTable",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_table"
+    },
+    {
+      "name": "OnButtonClicked",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "on_button_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FusionTableGui",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fusion_table_gui"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.quarrycraft.alchemy_stone_broken": "Broken Alchemy Stone",
+      "block.quarrycraft.fusion_table": "Fusion Table",
       "item.quarrycraft.magic_stone": "Magic Stone",
       "block.quarrycraft.copperore": "Copperore",
-      "item.quarrycraft.alchemy_stone": "Magic Stone"
+      "item.quarrycraft.alchemy_stone": "Alchemy Stone"
     }
   },
   "workspaceSettings": {
