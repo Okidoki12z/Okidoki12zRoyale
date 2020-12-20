@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "zdfg",
     "customModelName": "Normal",
-    "name": "Copper ingot",
+    "name": "§6Copper ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:WTF"

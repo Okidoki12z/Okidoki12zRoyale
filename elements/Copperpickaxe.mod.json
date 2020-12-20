@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "c_pickaxe",
     "customModelName": "Normal",
-    "name": "Copper pickaxe",
+    "name": "§6Copper pickaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
