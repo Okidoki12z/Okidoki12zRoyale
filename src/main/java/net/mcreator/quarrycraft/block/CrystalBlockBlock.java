@@ -112,7 +112,7 @@ public class CrystalBlockBlock extends QuarrycraftModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 2)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(2, 0, 0, 30))));
+			}), block.getDefaultState(), 2)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 0, 0, 30))));
 		}
 	}
 }
