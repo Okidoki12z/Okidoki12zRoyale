@@ -3,8 +3,8 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 176,
-    "height": 166,
+    "width": 186,
+    "height": 174,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
@@ -20,8 +20,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 150,
-          "y": 62
+          "x": 141,
+          "y": 89
         }
       },
       {
@@ -31,8 +31,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 258,
-          "y": 62
+          "x": 213,
+          "y": 89
         }
       },
       {
@@ -45,8 +45,18 @@
           "width": 45,
           "height": 20,
           "name": "Fuze",
-          "x": 140,
-          "y": 81
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "asdasd.png",
+          "use1Xscale": true,
+          "name": "asdasd.png",
+          "x": 159,
+          "y": 62
         }
       }
     ]

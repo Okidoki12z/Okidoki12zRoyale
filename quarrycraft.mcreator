@@ -557,13 +557,31 @@
       "registry_name": "copperhoe"
     },
     {
-      "name": "Tinore",
-      "type": "block",
-      "sortid": 32,
+      "name": "BronzePickaxe",
+      "type": "tool",
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tinore"
+      "registry_name": "bronze_pickaxe"
+    },
+    {
+      "name": "BronzeHoeRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_hoe_recipe"
+    },
+    {
+      "name": "BronzeArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_armor_leggings_recipe"
     },
     {
       "name": "Tinignot",
@@ -575,13 +593,13 @@
       "registry_name": "tinignot"
     },
     {
-      "name": "Tinignot1",
-      "type": "recipe",
-      "sortid": 34,
+      "name": "BronzeShovel",
+      "type": "tool",
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tinignot_1"
+      "registry_name": "bronze_shovel"
     },
     {
       "name": "BronzeIngot",
@@ -602,42 +620,6 @@
       "registry_name": "bronze_block"
     },
     {
-      "name": "BronzeOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bronze_ore_block_recipe"
-    },
-    {
-      "name": "BronzeBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bronze_block_ore_recipe"
-    },
-    {
-      "name": "BronzeOreSmelting",
-      "type": "recipe",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bronze_ore_smelting"
-    },
-    {
-      "name": "BronzePickaxe",
-      "type": "tool",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bronze_pickaxe"
-    },
-    {
       "name": "BronzeAxe",
       "type": "tool",
       "sortid": 42,
@@ -656,22 +638,22 @@
       "registry_name": "bronze_sword"
     },
     {
-      "name": "BronzeShovel",
-      "type": "tool",
-      "sortid": 44,
+      "name": "BronzeBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bronze_shovel"
+      "registry_name": "bronze_block_ore_recipe"
     },
     {
-      "name": "BronzeHoe",
-      "type": "tool",
-      "sortid": 45,
+      "name": "BronzeArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bronze_hoe"
+      "registry_name": "bronze_armor_body_recipe"
     },
     {
       "name": "BronzePickaxeRecipe",
@@ -681,6 +663,57 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bronze_pickaxe_recipe"
+    },
+    {
+      "name": "BronzeArmor",
+      "type": "armor",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BronzeOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_ore_block_recipe"
+    },
+    {
+      "name": "BronzeShovelRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_shovel_recipe"
+    },
+    {
+      "name": "Tinore",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tinore"
+    },
+    {
+      "name": "Tinignot1",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tinignot_1"
     },
     {
       "name": "BronzeAxeRecipe",
@@ -701,37 +734,22 @@
       "registry_name": "bronze_sword_recipe"
     },
     {
-      "name": "BronzeShovelRecipe",
-      "type": "recipe",
-      "sortid": 49,
+      "name": "BronzeHoe",
+      "type": "tool",
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bronze_shovel_recipe"
+      "registry_name": "bronze_hoe"
     },
     {
-      "name": "BronzeHoeRecipe",
+      "name": "BronzeArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bronze_hoe_recipe"
-    },
-    {
-      "name": "BronzeArmor",
-      "type": "armor",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bronze_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
+      "registry_name": "bronze_armor_boots_recipe"
     },
     {
       "name": "BronzeArmorHelmetRecipe",
@@ -743,76 +761,386 @@
       "registry_name": "bronze_armor_helmet_recipe"
     },
     {
-      "name": "BronzeArmorBodyRecipe",
+      "name": "BronzeOreSmelting",
       "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_ore_smelting"
+    },
+    {
+      "name": "CrystalUpgraderRecipe1",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_upgrader_recipe_1"
+    },
+    {
+      "name": "CrystalBlock3",
+      "type": "block",
       "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bronze_armor_body_recipe"
+      "registry_name": "crystal_block_3"
     },
     {
-      "name": "BronzeArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 54,
+      "name": "CrystalBlock2",
+      "type": "block",
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bronze_armor_leggings_recipe"
+      "registry_name": "crystal_block_2"
     },
     {
-      "name": "BronzeArmorBootsRecipe",
+      "name": "CrystalUpgraderRecipe2",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_upgrader_recipe_2"
+    },
+    {
+      "name": "Crystal22",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_22"
+    },
+    {
+      "name": "Crystal8",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_8"
+    },
+    {
+      "name": "Crystal9",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_9"
+    },
+    {
+      "name": "Crystal6",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_6"
+    },
+    {
+      "name": "CrystalBlockRotated",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_block_rotated"
+    },
+    {
+      "name": "Crystal7",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_7"
+    },
+    {
+      "name": "Crystal1",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_1"
+    },
+    {
+      "name": "CrystalUpgraderRecipe",
       "type": "recipe",
       "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bronze_armor_boots_recipe"
+      "registry_name": "crystal_upgrader_recipe"
+    },
+    {
+      "name": "PinkCrystalBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_crystal_block_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crystal4",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_4"
+    },
+    {
+      "name": "Crystal5",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_5"
+    },
+    {
+      "name": "Crystal2",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_2"
+    },
+    {
+      "name": "Crystal3",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_3"
+    },
+    {
+      "name": "CrystalBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_block_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bluecrystalshard",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluecrystalshard"
+    },
+    {
+      "name": "AlchemyStoneRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy_stone_recipe"
+    },
+    {
+      "name": "CrystalShard",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_crystal_shard"
+    },
+    {
+      "name": "Crystal15",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_15"
+    },
+    {
+      "name": "Crystal13",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_13"
+    },
+    {
+      "name": "Crystal14",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_14"
+    },
+    {
+      "name": "BlueCrystalBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_crystal_block_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrystalBlock",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_block"
+    },
+    {
+      "name": "Crystal11",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_11"
+    },
+    {
+      "name": "Crystal12",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_12"
+    },
+    {
+      "name": "Crystal10",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_10"
+    },
+    {
+      "name": "Crystal",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal"
+    },
+    {
+      "name": "PinkCrystalShard",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_crystal_shard"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.quarrycraft.copperhelmet_leggings": "Copper Leggings",
-      "item.quarrycraft.copperhelmet_helmet": "Copper Helmet",
       "item.quarrycraft.alchemy_stone_2": "Alchemy Stone",
-      "block.quarrycraft.tinore": "Tinore",
       "item.quarrycraft.alchemy_stone_1": "Alchemy Stone",
-      "item.quarrycraft.alchemy_stone_broken": "Broken Alchemy Stone",
       "block.quarrycraft.crystalupgraderpink": "Crystalupgraderpink",
       "item.quarrycraft.alchemy_stone_3": "Alchemy Stone",
-      "item.quarrycraft.bronze_armor_chestplate": "Bronze Chestplate",
-      "item.quarrycraft.cupperhoe": "Cupperhoe",
-      "item.quarrycraft.tinignot": "Tin ignot",
-      "item.quarrycraft.coppershovel": "Coppershovel",
-      "item.quarrycraft.bronze_ingot": "Bronze",
-      "item.quarrycraft.bronze_axe": "Bronze Axe",
       "block.quarrycraft.fusion_table": "Fusion Table",
-      "item.quarrycraft.bronze_shovel": "Bronze Shovel",
       "item.quarrycraft.copperpickaxe": "Copperpickaxe",
       "block.quarrycraft.cruystalupgraderred": "Cruystalupgraderred",
-      "block.quarrycraft.bronze_block": "Block of Bronze",
-      "item.quarrycraft.bronze_armor_boots": "Bronze Boots",
-      "item.quarrycraft.bronze_sword": "Bronze Sword",
+      "block.quarrycraft.copperblockore": "Copper block ",
+      "item.quarrycraft.copperingot": "Copper ingot",
+      "item.quarrycraft.alchemy_stone": "Alchemy Stone",
+      "item.quarrycraft.copperhelmet_helmet": "Copper Helmet",
+      "item.quarrycraft.copperhelmet_leggings": "Copper Leggings",
+      "item.quarrycraft.alchemy_stone_broken": "Broken Alchemy Stone",
+      "item.quarrycraft.cupperhoe": "Cupperhoe",
+      "item.quarrycraft.coppershovel": "Coppershovel",
       "item.quarrycraft.alchemy_stone_broken_3": "Broken Alchemy Stone",
-      "item.quarrycraft.bronze_pickaxe": "Bronze Pickaxe",
       "item.quarrycraft.alchemy_stone_broken_2": "Broken Alchemy Stone",
       "block.quarrycraft.crystal_upgrader_blue": "Crystal Upgrader",
       "item.quarrycraft.alchemy_stone_broken_1": "Broken Alchemy Stone",
       "item.quarrycraft.copperaxe": "Copperaxe",
+      "block.quarrycraft.crystal_block_3": "Blue Crystal Block",
       "item.quarrycraft.copperhelmet_boots": "Copper Boots",
+      "block.quarrycraft.crystal_block_2": "Pink Crystal Block",
       "itemGroup.tabwtf": "WTF",
       "item.quarrycraft.magic_stone": "Magic Stone",
       "block.quarrycraft.copperore": "Copperore",
-      "item.quarrycraft.bronze_armor_leggings": "Bronze Leggings",
-      "block.quarrycraft.copperblockore": "Copper block ",
-      "item.quarrycraft.bronze_armor_helmet": "Bronze Helmet",
       "item.quarrycraft.copperhelmet_chestplate": "Copper Body",
-      "item.quarrycraft.copperingot": "Copper ingot",
-      "item.quarrycraft.coppersword": "Copper sword",
-      "item.quarrycraft.alchemy_stone": "Alchemy Stone",
-      "item.quarrycraft.bronze_hoe": "Bronze Hoe"
+      "item.quarrycraft.coppersword": "Copper sword"
     }
   },
   "workspaceSettings": {

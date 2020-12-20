@@ -8,29 +8,29 @@
   ],
   "key": {
     "0": {
-      "item": "quarrycraft:bronze_ingot"
+      "item": "quarrycraft:unknown_element"
     },
     "1": {
-      "item": "quarrycraft:bronze_ingot"
+      "item": "quarrycraft:unknown_element"
     },
     "2": {
-      "item": "quarrycraft:bronze_ingot"
+      "item": "quarrycraft:unknown_element"
     },
     "3": {
-      "item": "quarrycraft:bronze_ingot"
+      "item": "quarrycraft:unknown_element"
     },
     "5": {
-      "item": "quarrycraft:bronze_ingot"
+      "item": "quarrycraft:unknown_element"
     },
     "6": {
-      "item": "quarrycraft:bronze_ingot"
+      "item": "quarrycraft:unknown_element"
     },
     "8": {
-      "item": "quarrycraft:bronze_ingot"
+      "item": "quarrycraft:unknown_element"
     }
   },
   "result": {
-    "item": "quarrycraft:bronze_armor_leggings",
+    "item": "quarrycraft:unknown_element_leggings",
     "count": 1
   }
 }
