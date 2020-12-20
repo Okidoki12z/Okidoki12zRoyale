@@ -1,0 +1,36 @@
+{
+  "group": "quarrycraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "quarrycraft:unknown_element"
+    },
+    "1": {
+      "item": "quarrycraft:unknown_element"
+    },
+    "2": {
+      "item": "quarrycraft:unknown_element"
+    },
+    "3": {
+      "item": "quarrycraft:unknown_element"
+    },
+    "5": {
+      "item": "quarrycraft:unknown_element"
+    },
+    "6": {
+      "item": "quarrycraft:unknown_element"
+    },
+    "8": {
+      "item": "quarrycraft:unknown_element"
+    }
+  },
+  "result": {
+    "item": "quarrycraft:unknown_element_leggings",
+    "count": 1
+  }
+}
