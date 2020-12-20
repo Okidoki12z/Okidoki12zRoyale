@@ -1,11 +1,34 @@
 package net.mcreator.quarrycraft.procedures;
 
+import net.minecraftforge.registries.ForgeRegistries;
+
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.SoundCategory;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.item.ItemStack;
+import net.minecraft.inventory.container.Slot;
+import net.minecraft.inventory.container.Container;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.quarrycraft.item.MagicStoneItem;
+import net.mcreator.quarrycraft.item.AlchemyStone3Item;
+import net.mcreator.quarrycraft.item.AlchemyStone2Item;
+import net.mcreator.quarrycraft.item.AlchemyStone1Item;
+import net.mcreator.quarrycraft.block.CrystalupgraderpinkBlock;
+import net.mcreator.quarrycraft.block.CrystalUpgraderBlock;
+import net.mcreator.quarrycraft.block.CruystalupgraderredBlock;
+import net.mcreator.quarrycraft.QuarrycraftModElements;
+
+import java.util.function.Supplier;
+import java.util.Map;
+
 @QuarrycraftModElements.ModElement.Tag
 public class OnButtonClicked2Procedure extends QuarrycraftModElements.ModElement {
-
 	public OnButtonClicked2Procedure(QuarrycraftModElements instance) {
 		super(instance, 19);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -34,13 +57,11 @@ public class OnButtonClicked2Procedure extends QuarrycraftModElements.ModElement
 				System.err.println("Failed to load dependency world for procedure OnButtonClicked2!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if ((((new Object() {
 			public ItemStack getItemStack(int sltid) {
 				Entity _ent = entity;
@@ -58,18 +79,18 @@ public class OnButtonClicked2Procedure extends QuarrycraftModElements.ModElement
 		}.getItemStack((int) (0))).getItem() == new ItemStack(MagicStoneItem.block, (int) (1)).getItem()) && ((((entity instanceof PlayerEntity)
 				? ((PlayerEntity) entity).experienceLevel
 				: 0) >= 10)
-				&& (((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == CrystalUpgraderItem.block.getDefaultState()
+				&& (((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == CrystalUpgraderBlock.block.getDefaultState()
 						.getBlock())
-						|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == CrystalUpgraderItem.block
+						|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == CrystalUpgraderBlock.block
 								.getDefaultState().getBlock())
-								|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == CrystalUpgraderItem.block
+								|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == CrystalUpgraderBlock.block
 										.getDefaultState().getBlock())
 										|| (((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z)))
-												.getBlock() == CrystalUpgraderItem.block.getDefaultState().getBlock())
+												.getBlock() == CrystalUpgraderBlock.block.getDefaultState().getBlock())
 												|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1))))
-														.getBlock() == CrystalUpgraderItem.block.getDefaultState().getBlock())
+														.getBlock() == CrystalUpgraderBlock.block.getDefaultState().getBlock())
 														|| ((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z)))
-																.getBlock() == CrystalUpgraderItem.block.getDefaultState().getBlock()))))))))) {
+																.getBlock() == CrystalUpgraderBlock.block.getDefaultState().getBlock()))))))))) {
 			{
 				Entity _ent = entity;
 				if (_ent instanceof ServerPlayerEntity) {
@@ -123,18 +144,18 @@ public class OnButtonClicked2Procedure extends QuarrycraftModElements.ModElement
 		}.getItemStack((int) (0))).getItem() == new ItemStack(AlchemyStone2Item.block, (int) (1)).getItem()) && ((((entity instanceof PlayerEntity)
 				? ((PlayerEntity) entity).experienceLevel
 				: 0) >= 20)
-				&& (((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == CruystalupgraderredItem.block
+				&& (((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == CruystalupgraderredBlock.block
 						.getDefaultState().getBlock())
-						|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == CruystalupgraderredItem.block
+						|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == CruystalupgraderredBlock.block
 								.getDefaultState().getBlock())
-								|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == CruystalupgraderredItem.block
+								|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == CruystalupgraderredBlock.block
 										.getDefaultState().getBlock())
 										|| (((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z)))
-												.getBlock() == CruystalupgraderredItem.block.getDefaultState().getBlock())
+												.getBlock() == CruystalupgraderredBlock.block.getDefaultState().getBlock())
 												|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1))))
-														.getBlock() == CruystalupgraderredItem.block.getDefaultState().getBlock())
+														.getBlock() == CruystalupgraderredBlock.block.getDefaultState().getBlock())
 														|| ((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z)))
-																.getBlock() == CruystalupgraderredItem.block.getDefaultState().getBlock()))))))))) {
+																.getBlock() == CruystalupgraderredBlock.block.getDefaultState().getBlock()))))))))) {
 			{
 				Entity _ent = entity;
 				if (_ent instanceof ServerPlayerEntity) {
@@ -188,18 +209,18 @@ public class OnButtonClicked2Procedure extends QuarrycraftModElements.ModElement
 		}.getItemStack((int) (0))).getItem() == new ItemStack(AlchemyStone1Item.block, (int) (1)).getItem()) && ((((entity instanceof PlayerEntity)
 				? ((PlayerEntity) entity).experienceLevel
 				: 0) >= 15)
-				&& (((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == CrystalupgraderpinkItem.block
+				&& (((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == CrystalupgraderpinkBlock.block
 						.getDefaultState().getBlock())
-						|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == CrystalupgraderpinkItem.block
+						|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == CrystalupgraderpinkBlock.block
 								.getDefaultState().getBlock())
-								|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == CrystalupgraderpinkItem.block
+								|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == CrystalupgraderpinkBlock.block
 										.getDefaultState().getBlock())
 										|| (((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z)))
-												.getBlock() == CrystalupgraderpinkItem.block.getDefaultState().getBlock())
+												.getBlock() == CrystalupgraderpinkBlock.block.getDefaultState().getBlock())
 												|| (((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1))))
-														.getBlock() == CrystalupgraderpinkItem.block.getDefaultState().getBlock())
+														.getBlock() == CrystalupgraderpinkBlock.block.getDefaultState().getBlock())
 														|| ((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z)))
-																.getBlock() == CrystalupgraderpinkItem.block.getDefaultState().getBlock()))))))))) {
+																.getBlock() == CrystalupgraderpinkBlock.block.getDefaultState().getBlock()))))))))) {
 			{
 				Entity _ent = entity;
 				if (_ent instanceof ServerPlayerEntity) {
@@ -237,7 +258,5 @@ public class OnButtonClicked2Procedure extends QuarrycraftModElements.ModElement
 						SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 			}
 		}
-
 	}
-
 }

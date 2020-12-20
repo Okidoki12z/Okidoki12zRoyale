@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "pinkcrystal1"
+      },
+      "name": "default"
+    }
+  }
+}

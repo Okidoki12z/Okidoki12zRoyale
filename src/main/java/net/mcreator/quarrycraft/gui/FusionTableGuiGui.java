@@ -48,7 +48,7 @@ public class FusionTableGuiGui extends QuarrycraftModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public FusionTableGuiGui(QuarrycraftModElements instance) {
-		super(instance, 18);
+		super(instance, 5);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -121,9 +121,9 @@ public class FusionTableGuiGui extends QuarrycraftModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 26) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 21, 57) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 133, 26) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 93, 57) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -133,9 +133,9 @@ public class FusionTableGuiGui extends QuarrycraftModElements.ModElement {
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
+					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 5 + 8 + sj * 18, 4 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
+				this.addSlot(new Slot(inv, si, 5 + 8 + si * 18, 4 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -302,8 +302,8 @@ public class FusionTableGuiGui extends QuarrycraftModElements.ModElement {
 			this.y = container.y;
 			this.z = container.z;
 			this.entity = container.entity;
-			this.xSize = 176;
-			this.ySize = 166;
+			this.xSize = 186;
+			this.ySize = 174;
 		}
 		private static final ResourceLocation texture = new ResourceLocation("quarrycraft:textures/fusion_table_gui.png");
 		@Override
@@ -320,6 +320,8 @@ public class FusionTableGuiGui extends QuarrycraftModElements.ModElement {
 			int k = (this.width - this.xSize) / 2;
 			int l = (this.height - this.ySize) / 2;
 			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("quarrycraft:textures/asdasd.png"));
+			this.blit(this.guiLeft + 38, this.guiTop + 29, 0, 0, 64, 32, 64, 32);
 		}
 
 		@Override
@@ -350,7 +352,7 @@ public class FusionTableGuiGui extends QuarrycraftModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 14, this.guiTop + 44, 45, 20, "Fuze", e -> {
+			this.addButton(new Button(this.guiLeft + 11, this.guiTop + 11, 45, 20, "Fuze", e -> {
 				QuarrycraftMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));

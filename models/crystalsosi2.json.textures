@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "bluecrystal1"
+      },
+      "name": "default"
+    }
+  }
+}
