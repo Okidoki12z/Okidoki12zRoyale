@@ -8,10 +8,10 @@
   ],
   "key": {
     "0": {
-      "item": "quarrycraft:unknown_element"
+      "item": "quarrycraft:bronze_ingot"
     },
     "1": {
-      "item": "quarrycraft:unknown_element"
+      "item": "quarrycraft:bronze_ingot"
     },
     "3": {
       "item": "minecraft:stick"
@@ -21,7 +21,7 @@
     }
   },
   "result": {
-    "item": "quarrycraft:unknown_element",
+    "item": "quarrycraft:bronze_hoe",
     "count": 1
   }
 }

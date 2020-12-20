@@ -1,12 +1,21 @@
 
 package net.mcreator.quarrycraft.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ShovelItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.quarrycraft.QuarrycraftModElements;
+
 @QuarrycraftModElements.ModElement.Tag
 public class BronzeShovelItem extends QuarrycraftModElements.ModElement {
-
 	@ObjectHolder("quarrycraft:bronze_shovel")
 	public static final Item block = null;
-
 	public BronzeShovelItem(QuarrycraftModElements instance) {
 		super(instance, 44);
 	}
@@ -38,8 +47,6 @@ public class BronzeShovelItem extends QuarrycraftModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(BronzeIngotItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-
 		}.setRegistryName("bronze_shovel"));
 	}
-
 }

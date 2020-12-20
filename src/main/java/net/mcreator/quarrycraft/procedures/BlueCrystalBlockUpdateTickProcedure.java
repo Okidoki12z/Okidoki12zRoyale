@@ -1,11 +1,29 @@
 package net.mcreator.quarrycraft.procedures;
 
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.AxisAlignedBB;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.block.Blocks;
+
+import net.mcreator.quarrycraft.block.CrystalBlockRotatedBlock;
+import net.mcreator.quarrycraft.block.Crystal9Block;
+import net.mcreator.quarrycraft.block.Crystal7Block;
+import net.mcreator.quarrycraft.block.Crystal3Block;
+import net.mcreator.quarrycraft.block.Crystal15Block;
+import net.mcreator.quarrycraft.block.Crystal13Block;
+import net.mcreator.quarrycraft.QuarrycraftModElements;
+
+import java.util.function.Function;
+import java.util.Map;
+import java.util.Comparator;
+
 @QuarrycraftModElements.ModElement.Tag
 public class BlueCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.ModElement {
-
 	public BlueCrystalBlockUpdateTickProcedure(QuarrycraftModElements instance) {
 		super(instance, 54);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -29,12 +47,10 @@ public class BlueCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.
 				System.err.println("Failed to load dependency world for procedure BlueCrystalBlockUpdateTick!");
 			return;
 		}
-
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if (((!((((Entity) world
 				.getEntitiesWithinAABB(ServerPlayerEntity.class,
 						new AxisAlignedBB(x - (50 / 2d), y - (50 / 2d), z - (50 / 2d), x + (50 / 2d), y + (50 / 2d), z + (50 / 2d)), null)
@@ -138,7 +154,5 @@ public class BlueCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.
 				&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))) {
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)), Crystal9Block.block.getDefaultState(), 3);
 		}
-
 	}
-
 }

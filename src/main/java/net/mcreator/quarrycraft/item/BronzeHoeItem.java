@@ -1,12 +1,21 @@
 
 package net.mcreator.quarrycraft.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.HoeItem;
+
+import net.mcreator.quarrycraft.QuarrycraftModElements;
+
 @QuarrycraftModElements.ModElement.Tag
 public class BronzeHoeItem extends QuarrycraftModElements.ModElement {
-
 	@ObjectHolder("quarrycraft:bronze_hoe")
 	public static final Item block = null;
-
 	public BronzeHoeItem(QuarrycraftModElements instance) {
 		super(instance, 45);
 	}
@@ -38,8 +47,6 @@ public class BronzeHoeItem extends QuarrycraftModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(BronzeIngotItem.block, (int) (1)));
 			}
 		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-
 		}.setRegistryName("bronze_hoe"));
 	}
-
 }
