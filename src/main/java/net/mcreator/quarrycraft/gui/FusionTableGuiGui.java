@@ -321,7 +321,7 @@ public class FusionTableGuiGui extends QuarrycraftModElements.ModElement {
 			int l = (this.height - this.ySize) / 2;
 			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("quarrycraft:textures/asdasd.png"));
-			this.blit(this.guiLeft + 38, this.guiTop + 29, 0, 0, 64, 32, 64, 32);
+			this.blit(this.guiLeft + 37, this.guiTop + 29, 0, 0, 64, 32, 64, 32);
 		}
 
 		@Override

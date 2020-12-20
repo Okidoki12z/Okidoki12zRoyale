@@ -1,8 +1,0 @@
-{
-  "parent": "quarrycraft:custom/crystal1",
-  "textures": {
-    "all": "quarrycraft:blocks/pinkcrystal1",
-    "particle": "quarrycraft:blocks/pinkcrystal1",
-    "0": "quarrycraft:blocks/pinkcrystal1"
-  }
-}

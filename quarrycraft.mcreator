@@ -557,69 +557,6 @@
       "registry_name": "crystal_upgrader_recipe_2"
     },
     {
-      "name": "Crystal22",
-      "type": "block",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_22"
-    },
-    {
-      "name": "Crystal8",
-      "type": "block",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_8"
-    },
-    {
-      "name": "Crystal9",
-      "type": "block",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_9"
-    },
-    {
-      "name": "Crystal6",
-      "type": "block",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_6"
-    },
-    {
-      "name": "CrystalBlockRotated",
-      "type": "block",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_block_rotated"
-    },
-    {
-      "name": "Crystal7",
-      "type": "block",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_7"
-    },
-    {
-      "name": "Crystal1",
-      "type": "block",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_1"
-    },
-    {
       "name": "CrystalUpgraderRecipe",
       "type": "recipe",
       "sortid": 55,
@@ -627,100 +564,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crystal_upgrader_recipe"
-    },
-    {
-      "name": "PinkCrystalBlockUpdateTick",
-      "type": "procedure",
-      "sortid": 52,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pink_crystal_block_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Crystal4",
-      "type": "block",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_4"
-    },
-    {
-      "name": "Crystal5",
-      "type": "block",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_5"
-    },
-    {
-      "name": "Crystal2",
-      "type": "block",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_2"
-    },
-    {
-      "name": "Crystal3",
-      "type": "block",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_3"
-    },
-    {
-      "name": "CrystalBlockUpdateTick",
-      "type": "procedure",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_block_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "Bluecrystalshard",
@@ -750,62 +593,6 @@
       "registry_name": "red_crystal_shard"
     },
     {
-      "name": "Crystal15",
-      "type": "block",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_15"
-    },
-    {
-      "name": "Crystal13",
-      "type": "block",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_13"
-    },
-    {
-      "name": "Crystal14",
-      "type": "block",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_14"
-    },
-    {
-      "name": "BlueCrystalBlockUpdateTick",
-      "type": "procedure",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blue_crystal_block_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "CrystalBlock",
       "type": "block",
       "sortid": 30,
@@ -813,42 +600,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crystal_block"
-    },
-    {
-      "name": "Crystal11",
-      "type": "block",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_11"
-    },
-    {
-      "name": "Crystal12",
-      "type": "block",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_12"
-    },
-    {
-      "name": "Crystal10",
-      "type": "block",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_10"
-    },
-    {
-      "name": "Crystal",
-      "type": "block",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal"
     },
     {
       "name": "PinkCrystalShard",
@@ -1107,15 +858,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bronze_armor_helmet_recipe"
-    },
-    {
-      "name": "BronzeOreSmelting",
-      "type": "recipe",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bronze_ore_smelting"
     }
   ],
   "variable_elements": [],
@@ -1125,18 +867,11 @@
       "block.quarrycraft.tinore": "Tin ore",
       "block.quarrycraft.crystalupgraderpink": "Crystalupgraderpink",
       "block.quarrycraft.crystal_block": "Crystal Block",
-      "block.quarrycraft.crystal_15": "Blue Crystal",
-      "block.quarrycraft.crystal_11": "Pink Crystal",
       "item.alchemaigica.bronze_ingot": "Bronze",
-      "block.quarrycraft.crystal_12": "Red Crystal",
-      "block.quarrycraft.crystal_13": "Blue Crystal",
-      "block.quarrycraft.crystal_14": "Pink Crystal",
       "item.alchemaigica.alchemy_stone": "Alchemy Stone",
-      "block.quarrycraft.crystal_10": "Red Crystal",
       "item.alchemaigica.bronze_armor_leggings": "Bronze Leggings",
-      "block.quarrycraft.fusion_table": "Fusion Table",
       "item.quarrycraft.bronze_shovel": "Bronze Shovel",
-      "block.quarrycraft.crystal": "Red Crystal",
+      "block.quarrycraft.fusion_table": "Fusion Table",
       "item.alchemaigica.bronze_armor_boots": "Bronze Boots",
       "item.alchemaigica.copperpickaxe": "Copper pickaxe",
       "block.alchemaigica.crystal_14": "Pink Crystal",
@@ -1154,9 +889,6 @@
       "block.alchemaigica.crystalupgraderpink": "Crystalupgraderpink",
       "block.alchemaigica.tinore": "Tinore",
       "item.quarrycraft.alchemy_stone_broken": "Broken Alchemy Stone",
-      "block.quarrycraft.crystal_1": "Red Crystal",
-      "block.quarrycraft.crystal_2": "Pink Crystal",
-      "block.quarrycraft.crystal_3": "Blue Crystal",
       "item.alchemaigica.bronze_axe": "Bronze Axe",
       "item.quarrycraft.coppershovel": "§6Copper shovel",
       "block.alchemaigica.crystal_22": "Pink Crystal",
@@ -1179,7 +911,6 @@
       "item.alchemaigica.bronze_sword": "Bronze Sword",
       "block.quarrycraft.crystal_block_2": "Pink Crystal Block",
       "block.alchemaigica.crystal_3": "Blue Crystal",
-      "block.quarrycraft.crystal_22": "Pink Crystal",
       "item.alchemaigica.bronze_pickaxe": "Bronze Pickaxe",
       "itemGroup.tabwtf": "WTF",
       "block.quarrycraft.copperore": "Copperore",
@@ -1189,12 +920,6 @@
       "item.quarrycraft.bronze_armor_helmet": "Bronze Helmet",
       "item.quarrycraft.copperhelmet_chestplate": "§6Copper Body",
       "item.alchemaigica.copperhelmet_leggings": "Copper Leggings",
-      "block.quarrycraft.crystal_4": "Red Crystal",
-      "block.quarrycraft.crystal_5": "Pink Crystal",
-      "block.quarrycraft.crystal_6": "Red Crystal",
-      "block.quarrycraft.crystal_7": "Blue Crystal",
-      "block.quarrycraft.crystal_8": "Pink Crystal",
-      "block.quarrycraft.crystal_9": "Blue Crystal",
       "item.quarrycraft.alchemy_stone_2": "§4Alchemy Stone",
       "item.quarrycraft.alchemy_stone_1": "§4Alchemy Stone",
       "item.alchemaigica.alchemy_stone_broken": "Broken Alchemy Stone",
@@ -1238,7 +963,6 @@
       "item.quarrycraft.alchemy_stone_broken_1": "Broken Alchemy Stone",
       "item.alchemaigica.alchemy_stone_2": "Alchemy Stone",
       "item.alchemaigica.alchemy_stone_1": "Alchemy Stone",
-      "block.quarrycraft.crystal_block_rotated": "Blue Crystal",
       "item.quarrycraft.copperhelmet_boots": "§6Copper Boots",
       "item.quarrycraft.magic_stone": "Magic Stone",
       "item.alchemaigica.cupperhoe": "Copper Hoe",
