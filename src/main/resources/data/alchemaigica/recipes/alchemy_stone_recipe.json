@@ -1,0 +1,42 @@
+{
+  "group": "alchemaigica",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobblestone"
+    },
+    "1": {
+      "item": "alchemaigica:copperingot"
+    },
+    "2": {
+      "item": "minecraft:cobblestone"
+    },
+    "3": {
+      "item": "alchemaigica:copperingot"
+    },
+    "4": {
+      "item": "minecraft:gold_ingot"
+    },
+    "5": {
+      "item": "alchemaigica:copperingot"
+    },
+    "6": {
+      "item": "minecraft:cobblestone"
+    },
+    "7": {
+      "item": "minecraft:ghast_tear"
+    },
+    "8": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "alchemaigica:alchemy_stone",
+    "count": 1
+  }
+}

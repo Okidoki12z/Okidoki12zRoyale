@@ -1,0 +1,8 @@
+{
+  "parent": "alchemaigica:custom/crystalsosi",
+  "textures": {
+    "all": "alchemaigica:blocks/redcrystal1",
+    "particle": "alchemaigica:blocks/redcrystal1",
+    "1": "alchemaigica:blocks/redcrystal1"
+  }
+}

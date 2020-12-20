@@ -1,0 +1,42 @@
+{
+  "group": "alchemaigica",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone"
+    },
+    "1": {
+      "item": "alchemaigica:bluecrystalshard"
+    },
+    "2": {
+      "item": "minecraft:stone"
+    },
+    "3": {
+      "item": "alchemaigica:bluecrystalshard"
+    },
+    "4": {
+      "item": "alchemaigica:copperingot"
+    },
+    "5": {
+      "item": "alchemaigica:bluecrystalshard"
+    },
+    "6": {
+      "item": "minecraft:stone"
+    },
+    "7": {
+      "item": "alchemaigica:bluecrystalshard"
+    },
+    "8": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "alchemaigica:crystal_upgrader_blue",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alchemaigica:blocks/enchanting_table_bottom",
+    "up": "alchemaigica:blocks/enchanting_table_top",
+    "north": "alchemaigica:blocks/jjjaslkdkasiodkjaos",
+    "east": "alchemaigica:blocks/jjjaslkdkasiodkjaos",
+    "south": "alchemaigica:blocks/jjjaslkdkasiodkjaos",
+    "west": "alchemaigica:blocks/jjjaslkdkasiodkjaos",
+    "particle": "alchemaigica:blocks/enchanting_table_bottom"
+  }
+}

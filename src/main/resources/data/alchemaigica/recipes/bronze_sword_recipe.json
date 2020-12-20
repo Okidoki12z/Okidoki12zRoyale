@@ -1,0 +1,24 @@
+{
+  "group": "alchemaigica",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemaigica:bronze_ingot"
+    },
+    "1": {
+      "item": "alchemaigica:bronze_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "alchemaigica:bronze_sword",
+    "count": 1
+  }
+}

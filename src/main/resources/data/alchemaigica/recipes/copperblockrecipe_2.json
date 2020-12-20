@@ -1,0 +1,16 @@
+{
+  "group": "alchemaigica",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "alchemaigica:copperblockore"
+    }
+  },
+  "result": {
+    "item": "alchemaigica:copperingot",
+    "count": 9
+  }
+}

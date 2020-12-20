@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alchemaigica:blocks/bluecrystal",
+    "up": "alchemaigica:blocks/bluecrystal",
+    "north": "alchemaigica:blocks/bluecrystal",
+    "east": "alchemaigica:blocks/bluecrystal",
+    "south": "alchemaigica:blocks/bluecrystal",
+    "west": "alchemaigica:blocks/bluecrystal",
+    "particle": "alchemaigica:blocks/bluecrystal"
+  }
+}

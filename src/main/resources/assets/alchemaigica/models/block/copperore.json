@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alchemaigica:blocks/copper_ore",
+    "up": "alchemaigica:blocks/copper_ore",
+    "north": "alchemaigica:blocks/copper_ore",
+    "east": "alchemaigica:blocks/copper_ore",
+    "south": "alchemaigica:blocks/copper_ore",
+    "west": "alchemaigica:blocks/copper_ore",
+    "particle": "alchemaigica:blocks/copper_ore"
+  }
+}

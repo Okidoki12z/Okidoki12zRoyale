@@ -1,8 +1,0 @@
-{
-  "parent": "quarrycraft:custom/crystalsosi31",
-  "textures": {
-    "all": "quarrycraft:blocks/redcrystal1",
-    "particle": "quarrycraft:blocks/redcrystal1",
-    "1": "quarrycraft:blocks/bluecrystal1"
-  }
-}

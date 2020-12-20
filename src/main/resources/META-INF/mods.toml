@@ -2,14 +2,15 @@ modLoader="javafml"
 loaderVersion="[31,)"
 
 [[mods]]
-modId="quarrycraft"
-version="1.0.0"
-displayName="quarryCraft"
+modId="alchemaigica"
+version="0.0.1"
+displayName="AlcheMaigica"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="Þðà, MCreator"
+logoFile="logo.png"
+authors="Xponer2, Resseter"
 
-[[dependencies.quarrycraft]]
+[[dependencies.alchemaigica]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.15.2]"
@@ -18,7 +19,7 @@ authors="Þðà, MCreator"
 
 
 
-[[dependencies.quarrycraft]]
+[[dependencies.alchemaigica]]
     modId="geckolib"
     mandatory=false
     ordering="NONE"

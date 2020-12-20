@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alchemaigica:blocks/redcrystal11",
+    "up": "alchemaigica:blocks/redcrystal11",
+    "north": "alchemaigica:blocks/redcrystal11",
+    "east": "alchemaigica:blocks/redcrystal11",
+    "south": "alchemaigica:blocks/redcrystal11",
+    "west": "alchemaigica:blocks/redcrystal11",
+    "particle": "alchemaigica:blocks/redcrystal11"
+  }
+}
