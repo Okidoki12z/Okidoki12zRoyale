@@ -66,7 +66,8 @@ public class PinkCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.
 								return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
 							}
 						}.compareDistOf(x, y, z)).findFirst().orElse(null)) != null)))
-				&& ((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))) {
+				&& ((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == Blocks.CAVE_AIR.getDefaultState()
+						.getBlock()))) {
 			world.setBlockState(new BlockPos((int) (x + 1), (int) y, (int) z), Crystal14Block.block.getDefaultState(), 3);
 		} else if (((!((((Entity) world
 				.getEntitiesWithinAABB(ServerPlayerEntity.class,
@@ -83,7 +84,8 @@ public class PinkCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.
 								return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
 							}
 						}.compareDistOf(x, y, z)).findFirst().orElse(null)) != null)))
-				&& ((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))) {
+				&& ((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.CAVE_AIR.getDefaultState()
+						.getBlock()))) {
 			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), Crystal2Block.block.getDefaultState(), 3);
 		} else if (((!((((Entity) world
 				.getEntitiesWithinAABB(ServerPlayerEntity.class,
@@ -100,7 +102,8 @@ public class PinkCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.
 								return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
 							}
 						}.compareDistOf(x, y, z)).findFirst().orElse(null)) != null)))
-				&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))) {
+				&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == Blocks.CAVE_AIR.getDefaultState()
+						.getBlock()))) {
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)), Crystal5Block.block.getDefaultState(), 3);
 		} else if (((!((((Entity) world
 				.getEntitiesWithinAABB(ServerPlayerEntity.class,
@@ -117,7 +120,8 @@ public class PinkCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.
 								return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
 							}
 						}.compareDistOf(x, y, z)).findFirst().orElse(null)) != null)))
-				&& ((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))) {
+				&& ((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z))).getBlock() == Blocks.CAVE_AIR.getDefaultState()
+						.getBlock()))) {
 			world.setBlockState(new BlockPos((int) (x - 1), (int) y, (int) z), Crystal11Block.block.getDefaultState(), 3);
 		} else if (((!((((Entity) world
 				.getEntitiesWithinAABB(ServerPlayerEntity.class,
@@ -134,7 +138,8 @@ public class PinkCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.
 								return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
 							}
 						}.compareDistOf(x, y, z)).findFirst().orElse(null)) != null)))
-				&& ((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))) {
+				&& ((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == Blocks.CAVE_AIR.getDefaultState()
+						.getBlock()))) {
 			world.setBlockState(new BlockPos((int) x, (int) (y - 1), (int) z), Crystal22Block.block.getDefaultState(), 3);
 		} else if (((!((((Entity) world
 				.getEntitiesWithinAABB(ServerPlayerEntity.class,
@@ -151,7 +156,8 @@ public class PinkCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.
 								return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
 							}
 						}.compareDistOf(x, y, z)).findFirst().orElse(null)) != null)))
-				&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))) {
+				&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)))).getBlock() == Blocks.CAVE_AIR.getDefaultState()
+						.getBlock()))) {
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)), Crystal8Block.block.getDefaultState(), 3);
 		}
 	}

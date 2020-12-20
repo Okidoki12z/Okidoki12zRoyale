@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "magicstoneblue",
     "customModelName": "Normal",
-    "name": "Alchemy Stone",
+    "name": "§4Alchemy Stone",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:WTF"
@@ -24,7 +24,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Transform coal into iron"
+      "§bTransform coal into iron"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
