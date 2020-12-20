@@ -566,35 +566,6 @@
       "registry_name": "crystal_upgrader_recipe"
     },
     {
-      "name": "PinkCrystalBlockUpdateTick",
-      "type": "procedure",
-      "sortid": 52,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pink_crystal_block_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Bluecrystalshard",
       "type": "item",
       "sortid": 34,
@@ -620,35 +591,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "red_crystal_shard"
-    },
-    {
-      "name": "BlueCrystalBlockUpdateTick",
-      "type": "procedure",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blue_crystal_block_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "CrystalBlock",
@@ -967,8 +909,8 @@
       "block.alchemaigica.crystal_7": "Blue Crystal",
       "block.alchemaigica.crystal_block_rotated": "Blue Crystal",
       "item.alchemaigica.coppersword": "Copper sword",
-      "item.quarrycraft.pink_crystal_shard": "Blue Crystal Shard",
       "block.alchemaigica.crystal_1": "Red Crystal",
+      "item.quarrycraft.pink_crystal_shard": "Blue Crystal Shard",
       "block.alchemaigica.crystal_4": "Red Crystal",
       "item.alchemaigica.bluecrystalshard": "Blue Crystal Shard",
       "block.alchemaigica.crystal_5": "Pink Crystal",
