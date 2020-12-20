@@ -47,7 +47,7 @@ public class Crystal22Block extends AlchemaigicaModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(1.05f, 10f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).doesNotBlockMovement().notSolid());
 			setRegistryName("crystal_22");
 		}
