@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "magicstone",
     "customModelName": "Normal",
-    "name": "Alchemy Stone",
+    "name": "§4Alchemy Stone",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:WTF"
@@ -23,7 +23,9 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "§bTransform cobblestone into coal"
+    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

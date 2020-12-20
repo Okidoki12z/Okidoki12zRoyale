@@ -61,7 +61,7 @@ public class AlchemyStone1Item extends QuarrycraftModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Transform coal into iron"));
+			list.add(new StringTextComponent("\u00A7bTransform coal into iron"));
 		}
 
 		@Override

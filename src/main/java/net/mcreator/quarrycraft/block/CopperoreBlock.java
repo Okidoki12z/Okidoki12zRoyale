@@ -86,7 +86,7 @@ public class CopperoreBlock extends QuarrycraftModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.ANDESITE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 16)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(20, 0, 0, 64))));
+			}), block.getDefaultState(), 6)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(20, 0, 0, 64))));
 		}
 	}
 }

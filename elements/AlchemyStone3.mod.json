@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "magicstonered",
     "customModelName": "Normal",
-    "name": "Alchemy Stone",
+    "name": "§4Alchemy Stone",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:WTF"
@@ -24,7 +24,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Transform gold into diamond"
+      "§bTransform gold into diamond"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
