@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "bronze_axe",
+    "texture": "b_axe",
     "customModelName": "Normal",
     "name": "Bronze Axe",
     "specialInfo": [],
@@ -13,10 +13,10 @@
     "toolType": "Axe",
     "harvestLevel": 2,
     "efficiency": 6.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 0.9,
     "enchantability": 14,
-    "damageVsEntity": 2.0,
-    "usageCount": 250,
+    "damageVsEntity": 9.2,
+    "usageCount": 270,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

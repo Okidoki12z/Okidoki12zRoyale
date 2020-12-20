@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "quarrycraft:items/bronze_axe"
+    "layer0": "quarrycraft:items/b_axe"
   }
 }
