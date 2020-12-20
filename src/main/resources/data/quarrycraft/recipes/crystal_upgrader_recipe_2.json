@@ -1,0 +1,42 @@
+{
+  "group": "quarrycraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone"
+    },
+    "1": {
+      "item": "quarrycraft:pink_crystal_shard"
+    },
+    "2": {
+      "item": "minecraft:stone"
+    },
+    "3": {
+      "item": "quarrycraft:pink_crystal_shard"
+    },
+    "4": {
+      "item": "quarrycraft:copperingot"
+    },
+    "5": {
+      "item": "quarrycraft:pink_crystal_shard"
+    },
+    "6": {
+      "item": "minecraft:stone"
+    },
+    "7": {
+      "item": "quarrycraft:pink_crystal_shard"
+    },
+    "8": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "quarrycraft:crystalupgraderpink",
+    "count": 1
+  }
+}

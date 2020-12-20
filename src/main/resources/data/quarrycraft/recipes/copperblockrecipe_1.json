@@ -1,0 +1,42 @@
+{
+  "group": "quarrycraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "quarrycraft:copperingot"
+    },
+    "1": {
+      "item": "quarrycraft:copperingot"
+    },
+    "2": {
+      "item": "quarrycraft:copperingot"
+    },
+    "3": {
+      "item": "quarrycraft:copperingot"
+    },
+    "4": {
+      "item": "quarrycraft:copperingot"
+    },
+    "5": {
+      "item": "quarrycraft:copperingot"
+    },
+    "6": {
+      "item": "quarrycraft:copperingot"
+    },
+    "7": {
+      "item": "quarrycraft:copperingot"
+    },
+    "8": {
+      "item": "quarrycraft:copperingot"
+    }
+  },
+  "result": {
+    "item": "quarrycraft:copperblockore",
+    "count": 1
+  }
+}

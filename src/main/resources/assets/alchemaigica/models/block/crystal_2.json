@@ -1,8 +1,0 @@
-{
-  "parent": "alchemaigica:custom/crystal1",
-  "textures": {
-    "all": "alchemaigica:blocks/pinkcrystal1",
-    "particle": "alchemaigica:blocks/pinkcrystal1",
-    "0": "alchemaigica:blocks/pinkcrystal1"
-  }
-}

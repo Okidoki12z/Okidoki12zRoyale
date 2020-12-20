@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "quarrycraft:blocks/enchanting_table_bottom",
+    "up": "quarrycraft:blocks/enchanting_table_top",
+    "north": "quarrycraft:blocks/jjjaslkdkasiodkjaos",
+    "east": "quarrycraft:blocks/jjjaslkdkasiodkjaos",
+    "south": "quarrycraft:blocks/jjjaslkdkasiodkjaos",
+    "west": "quarrycraft:blocks/jjjaslkdkasiodkjaos",
+    "particle": "quarrycraft:blocks/enchanting_table_bottom"
+  }
+}

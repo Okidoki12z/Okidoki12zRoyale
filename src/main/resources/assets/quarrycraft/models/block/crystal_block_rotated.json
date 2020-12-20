@@ -1,0 +1,8 @@
+{
+  "parent": "quarrycraft:custom/crystal2",
+  "textures": {
+    "all": "quarrycraft:blocks/bluecrystal1",
+    "particle": "quarrycraft:blocks/bluecrystal1",
+    "0": "quarrycraft:blocks/bluecrystal1"
+  }
+}

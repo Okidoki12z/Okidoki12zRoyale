@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "quarrycraft:blocks/redcrystal",
+    "up": "quarrycraft:blocks/redcrystal",
+    "north": "quarrycraft:blocks/redcrystal",
+    "east": "quarrycraft:blocks/redcrystal",
+    "south": "quarrycraft:blocks/redcrystal",
+    "west": "quarrycraft:blocks/redcrystal",
+    "particle": "quarrycraft:blocks/redcrystal"
+  }
+}
