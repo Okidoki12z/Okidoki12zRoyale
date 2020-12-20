@@ -1,24 +1,29 @@
 
 package net.mcreator.quarrycraft.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.Rarity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.quarrycraft.itemgroup.WTFItemGroup;
+import net.mcreator.quarrycraft.QuarrycraftModElements;
+
 @QuarrycraftModElements.ModElement.Tag
 public class PinkCrystalShardItem extends QuarrycraftModElements.ModElement {
-
 	@ObjectHolder("quarrycraft:pink_crystal_shard")
 	public static final Item block = null;
-
 	public PinkCrystalShardItem(QuarrycraftModElements instance) {
 		super(instance, 35);
-
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(WTFItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("pink_crystal_shard");
@@ -38,7 +43,5 @@ public class PinkCrystalShardItem extends QuarrycraftModElements.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
-
 	}
-
 }
