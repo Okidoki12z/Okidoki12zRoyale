@@ -1,29 +1,11 @@
 package net.mcreator.quarrycraft.procedures;
 
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.AxisAlignedBB;
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.block.Blocks;
-
-import net.mcreator.quarrycraft.block.Crystal8Block;
-import net.mcreator.quarrycraft.block.Crystal5Block;
-import net.mcreator.quarrycraft.block.Crystal2Block;
-import net.mcreator.quarrycraft.block.Crystal22Block;
-import net.mcreator.quarrycraft.block.Crystal14Block;
-import net.mcreator.quarrycraft.block.Crystal11Block;
-import net.mcreator.quarrycraft.QuarrycraftModElements;
-
-import java.util.function.Function;
-import java.util.Map;
-import java.util.Comparator;
-
 @QuarrycraftModElements.ModElement.Tag
 public class PinkCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.ModElement {
+
 	public PinkCrystalBlockUpdateTickProcedure(QuarrycraftModElements instance) {
 		super(instance, 52);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -47,10 +29,12 @@ public class PinkCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.
 				System.err.println("Failed to load dependency world for procedure PinkCrystalBlockUpdateTick!");
 			return;
 		}
+
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		if (((!((((Entity) world
 				.getEntitiesWithinAABB(ServerPlayerEntity.class,
 						new AxisAlignedBB(x - (50 / 2d), y - (50 / 2d), z - (50 / 2d), x + (50 / 2d), y + (50 / 2d), z + (50 / 2d)), null)
@@ -67,7 +51,7 @@ public class PinkCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.
 							}
 						}.compareDistOf(x, y, z)).findFirst().orElse(null)) != null)))
 				&& ((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))) {
-			world.setBlockState(new BlockPos((int) (x + 1), (int) y, (int) z), Crystal14Block.block.getDefaultState(), 3);
+			world.setBlockState(new BlockPos((int) (x + 1), (int) y, (int) z), Crystal14Item.block.getDefaultState(), 3);
 		} else if (((!((((Entity) world
 				.getEntitiesWithinAABB(ServerPlayerEntity.class,
 						new AxisAlignedBB(x - (50 / 2d), y - (50 / 2d), z - (50 / 2d), x + (50 / 2d), y + (50 / 2d), z + (50 / 2d)), null)
@@ -84,7 +68,7 @@ public class PinkCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.
 							}
 						}.compareDistOf(x, y, z)).findFirst().orElse(null)) != null)))
 				&& ((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))) {
-			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), Crystal2Block.block.getDefaultState(), 3);
+			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), Crystal2Item.block.getDefaultState(), 3);
 		} else if (((!((((Entity) world
 				.getEntitiesWithinAABB(ServerPlayerEntity.class,
 						new AxisAlignedBB(x - (50 / 2d), y - (50 / 2d), z - (50 / 2d), x + (50 / 2d), y + (50 / 2d), z + (50 / 2d)), null)
@@ -101,7 +85,7 @@ public class PinkCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.
 							}
 						}.compareDistOf(x, y, z)).findFirst().orElse(null)) != null)))
 				&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))) {
-			world.setBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)), Crystal5Block.block.getDefaultState(), 3);
+			world.setBlockState(new BlockPos((int) x, (int) y, (int) (z + 1)), Crystal5Item.block.getDefaultState(), 3);
 		} else if (((!((((Entity) world
 				.getEntitiesWithinAABB(ServerPlayerEntity.class,
 						new AxisAlignedBB(x - (50 / 2d), y - (50 / 2d), z - (50 / 2d), x + (50 / 2d), y + (50 / 2d), z + (50 / 2d)), null)
@@ -118,7 +102,7 @@ public class PinkCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.
 							}
 						}.compareDistOf(x, y, z)).findFirst().orElse(null)) != null)))
 				&& ((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))) {
-			world.setBlockState(new BlockPos((int) (x - 1), (int) y, (int) z), Crystal11Block.block.getDefaultState(), 3);
+			world.setBlockState(new BlockPos((int) (x - 1), (int) y, (int) z), Crystal11Item.block.getDefaultState(), 3);
 		} else if (((!((((Entity) world
 				.getEntitiesWithinAABB(ServerPlayerEntity.class,
 						new AxisAlignedBB(x - (50 / 2d), y - (50 / 2d), z - (50 / 2d), x + (50 / 2d), y + (50 / 2d), z + (50 / 2d)), null)
@@ -154,5 +138,7 @@ public class PinkCrystalBlockUpdateTickProcedure extends QuarrycraftModElements.
 				&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))) {
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)), Crystal8Block.block.getDefaultState(), 3);
 		}
+
 	}
+
 }

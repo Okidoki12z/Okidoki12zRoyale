@@ -16,7 +16,7 @@ public class CopperingotItem extends QuarrycraftModElements.ModElement {
 	@ObjectHolder("quarrycraft:copperingot")
 	public static final Item block = null;
 	public CopperingotItem(QuarrycraftModElements instance) {
-		super(instance, 14);
+		super(instance, 7);
 	}
 
 	@Override

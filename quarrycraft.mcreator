@@ -521,114 +521,40 @@
       }
     },
     {
-      "name": "AlchemyStoneRecipe",
+      "name": "CrystalUpgraderRecipe1",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "alchemy_stone_recipe"
+      "registry_name": "crystal_upgrader_recipe_1"
     },
     {
-      "name": "CrystalShard",
-      "type": "item",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "red_crystal_shard"
-    },
-    {
-      "name": "Crystal",
+      "name": "CrystalBlock3",
       "type": "block",
-      "sortid": 29,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crystal"
+      "registry_name": "crystal_block_3"
     },
     {
-      "name": "CrystalBlock",
+      "name": "CrystalBlock2",
       "type": "block",
-      "sortid": 30,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crystal_block"
+      "registry_name": "crystal_block_2"
     },
     {
-      "name": "CrystalBlockUpdateTick",
-      "type": "procedure",
-      "sortid": 31,
+      "name": "CrystalUpgraderRecipe2",
+      "type": "recipe",
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crystal_block_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "CrystalBlockRotated",
-      "type": "block",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_block_rotated"
-    },
-    {
-      "name": "Crystal2",
-      "type": "block",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_2"
-    },
-    {
-      "name": "Bluecrystalshard",
-      "type": "item",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bluecrystalshard"
-    },
-    {
-      "name": "PinkCrystalShard",
-      "type": "item",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pink_crystal_shard"
-    },
-    {
-      "name": "Crystal1",
-      "type": "block",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_1"
+      "registry_name": "crystal_upgrader_recipe_2"
     },
     {
       "name": "Crystal22",
@@ -638,51 +564,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crystal_22"
-    },
-    {
-      "name": "Crystal3",
-      "type": "block",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_3"
-    },
-    {
-      "name": "Crystal4",
-      "type": "block",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_4"
-    },
-    {
-      "name": "Crystal5",
-      "type": "block",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_5"
-    },
-    {
-      "name": "Crystal6",
-      "type": "block",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_6"
-    },
-    {
-      "name": "Crystal7",
-      "type": "block",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_7"
     },
     {
       "name": "Crystal8",
@@ -703,67 +584,49 @@
       "registry_name": "crystal_9"
     },
     {
-      "name": "Crystal10",
+      "name": "Crystal6",
       "type": "block",
-      "sortid": 45,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crystal_10"
+      "registry_name": "crystal_6"
     },
     {
-      "name": "Crystal11",
+      "name": "CrystalBlockRotated",
       "type": "block",
-      "sortid": 46,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crystal_11"
+      "registry_name": "crystal_block_rotated"
     },
     {
-      "name": "Crystal12",
+      "name": "Crystal7",
       "type": "block",
-      "sortid": 47,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crystal_12"
+      "registry_name": "crystal_7"
     },
     {
-      "name": "Crystal13",
+      "name": "Crystal1",
       "type": "block",
-      "sortid": 48,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crystal_13"
+      "registry_name": "crystal_1"
     },
     {
-      "name": "Crystal14",
-      "type": "block",
-      "sortid": 49,
+      "name": "CrystalUpgraderRecipe",
+      "type": "recipe",
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crystal_14"
-    },
-    {
-      "name": "Crystal15",
-      "type": "block",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_15"
-    },
-    {
-      "name": "CrystalBlock2",
-      "type": "block",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_block_2"
+      "registry_name": "crystal_upgrader_recipe"
     },
     {
       "name": "PinkCrystalBlockUpdateTick",
@@ -795,13 +658,123 @@
       }
     },
     {
-      "name": "CrystalBlock3",
+      "name": "Crystal4",
       "type": "block",
-      "sortid": 53,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crystal_block_3"
+      "registry_name": "crystal_4"
+    },
+    {
+      "name": "Crystal5",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_5"
+    },
+    {
+      "name": "Crystal2",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_2"
+    },
+    {
+      "name": "Crystal3",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_3"
+    },
+    {
+      "name": "CrystalBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_block_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bluecrystalshard",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluecrystalshard"
+    },
+    {
+      "name": "AlchemyStoneRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alchemy_stone_recipe"
+    },
+    {
+      "name": "CrystalShard",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_crystal_shard"
+    },
+    {
+      "name": "Crystal15",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_15"
+    },
+    {
+      "name": "Crystal13",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_13"
+    },
+    {
+      "name": "Crystal14",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_14"
     },
     {
       "name": "BlueCrystalBlockUpdateTick",
@@ -833,31 +806,94 @@
       }
     },
     {
-      "name": "CrystalUpgraderRecipe",
-      "type": "recipe",
-      "sortid": 55,
+      "name": "CrystalBlock",
+      "type": "block",
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crystal_upgrader_recipe"
+      "registry_name": "crystal_block"
     },
     {
-      "name": "CrystalUpgraderRecipe2",
-      "type": "recipe",
-      "sortid": 56,
+      "name": "Crystal11",
+      "type": "block",
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crystal_upgrader_recipe_2"
+      "registry_name": "crystal_11"
     },
     {
-      "name": "CrystalUpgraderRecipe1",
-      "type": "recipe",
-      "sortid": 57,
+      "name": "Crystal12",
+      "type": "block",
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crystal_upgrader_recipe_1"
+      "registry_name": "crystal_12"
+    },
+    {
+      "name": "Crystal10",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal_10"
+    },
+    {
+      "name": "Crystal",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystal"
+    },
+    {
+      "name": "PinkCrystalShard",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_crystal_shard"
+    },
+    {
+      "name": "Copperpickaxe1",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperpickaxe_1"
+    },
+    {
+      "name": "Coppershovel1",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coppershovel_1"
+    },
+    {
+      "name": "Copperaxe1",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperaxe_1"
+    },
+    {
+      "name": "Copperhoe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperhoe"
     }
   ],
   "variable_elements": [],
