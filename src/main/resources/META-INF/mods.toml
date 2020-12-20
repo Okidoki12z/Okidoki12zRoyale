@@ -19,9 +19,4 @@ authors="Xponer2, Resseter"
 
 
 
-[[dependencies.quarrycraft]]
-    modId="geckolib"
-    mandatory=false
-    ordering="NONE"
-    side="BOTH"
 

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "bronze_sword",
+    "texture": "b_sword",
     "customModelName": "Normal",
     "name": "Bronze Sword",
     "specialInfo": [],

@@ -1,0 +1,29 @@
+{
+  "group": "quarrycraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "quarrycraft:titanium_ingot"
+    },
+    "1": {
+      "item": "quarrycraft:titanium_ingot"
+    },
+    "2": {
+      "item": "quarrycraft:titanium_ingot"
+    },
+    "3": {
+      "item": "quarrycraft:titanium_ingot"
+    },
+    "5": {
+      "item": "quarrycraft:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "quarrycraft:titanium_armor_helmet",
+    "count": 1
+  }
+}

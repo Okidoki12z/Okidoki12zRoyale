@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "bronze_head",
+    "textureHelmet": "b_helmet",
     "enableBody": true,
-    "textureBody": "bronze_body",
+    "textureBody": "b_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "bronze_leggings",
+    "textureLeggings": "b_leggings",
     "enableBoots": true,
-    "textureBoots": "bronze_boots",
+    "textureBoots": "b_boots",
     "creativeTab": {
       "value": "COMBAT"
     },

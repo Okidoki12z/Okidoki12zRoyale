@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "quarrycraft:blocks/pinkcrystal2",
+    "up": "quarrycraft:blocks/pinkcrystal2",
+    "north": "quarrycraft:blocks/pinkcrystal2",
+    "east": "quarrycraft:blocks/pinkcrystal2",
+    "south": "quarrycraft:blocks/pinkcrystal2",
+    "west": "quarrycraft:blocks/pinkcrystal2",
+    "particle": "quarrycraft:blocks/pinkcrystal2"
+  }
+}

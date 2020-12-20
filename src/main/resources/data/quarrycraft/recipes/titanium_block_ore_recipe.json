@@ -1,0 +1,13 @@
+{
+  "group": "quarrycraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quarrycraft:titanium_block"
+    }
+  ],
+  "result": {
+    "item": "quarrycraft:titanium_ingot",
+    "count": 9
+  }
+}

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "bronze_hoe",
+    "texture": "b_hoe",
     "customModelName": "Normal",
     "name": "Bronze Hoe",
     "specialInfo": [],

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "bronze_pickaxe",
+    "texture": "b_pickaxe",
     "customModelName": "Normal",
     "name": "Bronze Pickaxe",
     "specialInfo": [],

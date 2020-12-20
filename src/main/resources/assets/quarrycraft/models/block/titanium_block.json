@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "quarrycraft:blocks/titanium_block",
+    "up": "quarrycraft:blocks/titanium_block",
+    "north": "quarrycraft:blocks/titanium_block",
+    "east": "quarrycraft:blocks/titanium_block",
+    "south": "quarrycraft:blocks/titanium_block",
+    "west": "quarrycraft:blocks/titanium_block",
+    "particle": "quarrycraft:blocks/titanium_block"
+  }
+}

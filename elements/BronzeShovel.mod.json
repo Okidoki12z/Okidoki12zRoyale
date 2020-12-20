@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "bronze_shovel",
+    "texture": "b_shovel",
     "customModelName": "Normal",
     "name": "Bronze Shovel",
     "specialInfo": [],
