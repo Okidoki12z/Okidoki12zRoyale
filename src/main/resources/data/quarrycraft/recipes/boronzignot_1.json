@@ -1,0 +1,19 @@
+{
+  "group": "quarrycraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "quarrycraft:tinignot"
+    },
+    "1": {
+      "item": "quarrycraft:copperingot"
+    }
+  },
+  "result": {
+    "item": "quarrycraft:bronze_ingot",
+    "count": 1
+  }
+}

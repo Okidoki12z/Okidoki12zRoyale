@@ -566,24 +566,6 @@
       "registry_name": "crystal_22"
     },
     {
-      "name": "Crystal8",
-      "type": "block",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_8"
-    },
-    {
-      "name": "Crystal9",
-      "type": "block",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crystal_9"
-    },
-    {
       "name": "Crystal6",
       "type": "block",
       "sortid": 41,
@@ -632,7 +614,7 @@
       "name": "PinkCrystalBlockUpdateTick",
       "type": "procedure",
       "sortid": 52,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "pink_crystal_block_update_tick",
@@ -780,7 +762,7 @@
       "name": "BlueCrystalBlockUpdateTick",
       "type": "procedure",
       "sortid": 54,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "blue_crystal_block_update_tick",
@@ -1109,13 +1091,13 @@
       "registry_name": "bronze_armor_helmet_recipe"
     },
     {
-      "name": "BronzeOreSmelting",
+      "name": "Boronzignot1",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bronze_ore_smelting"
+      "registry_name": "boronzignot_1"
     }
   ],
   "variable_elements": [],
@@ -1127,15 +1109,15 @@
       "block.quarrycraft.crystal_block": "Crystal Block",
       "block.quarrycraft.crystal_15": "Blue Crystal",
       "block.quarrycraft.crystal_11": "Pink Crystal",
-      "block.quarrycraft.crystal_12": "Red Crystal",
       "item.alchemaigica.bronze_ingot": "Bronze",
+      "block.quarrycraft.crystal_12": "Red Crystal",
       "block.quarrycraft.crystal_13": "Blue Crystal",
       "block.quarrycraft.crystal_14": "Pink Crystal",
-      "block.quarrycraft.crystal_10": "Red Crystal",
       "item.alchemaigica.alchemy_stone": "Alchemy Stone",
+      "block.quarrycraft.crystal_10": "Red Crystal",
       "item.alchemaigica.bronze_armor_leggings": "Bronze Leggings",
-      "item.quarrycraft.bronze_shovel": "Bronze Shovel",
       "block.quarrycraft.fusion_table": "Fusion Table",
+      "item.quarrycraft.bronze_shovel": "Bronze Shovel",
       "block.quarrycraft.crystal": "Red Crystal",
       "item.alchemaigica.bronze_armor_boots": "Bronze Boots",
       "item.alchemaigica.copperpickaxe": "Copper pickaxe",
@@ -1193,8 +1175,6 @@
       "block.quarrycraft.crystal_5": "Pink Crystal",
       "block.quarrycraft.crystal_6": "Red Crystal",
       "block.quarrycraft.crystal_7": "Blue Crystal",
-      "block.quarrycraft.crystal_8": "Pink Crystal",
-      "block.quarrycraft.crystal_9": "Blue Crystal",
       "item.quarrycraft.alchemy_stone_2": "§4Alchemy Stone",
       "item.quarrycraft.alchemy_stone_1": "§4Alchemy Stone",
       "item.alchemaigica.alchemy_stone_broken": "Broken Alchemy Stone",
