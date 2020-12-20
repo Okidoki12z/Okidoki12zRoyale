@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "quarrycraft:blocks/bronze_ore_block",
+    "particle": "quarrycraft:blocks/bronze_ore_block"
+  }
+}

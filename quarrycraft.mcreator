@@ -555,6 +555,219 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copperhoe"
+    },
+    {
+      "name": "Tinore",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tinore"
+    },
+    {
+      "name": "Tinignot",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tinignot"
+    },
+    {
+      "name": "Tinignot1",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tinignot_1"
+    },
+    {
+      "name": "BronzeIngot",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_ingot"
+    },
+    {
+      "name": "BronzeBlock",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_block"
+    },
+    {
+      "name": "BronzeOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_ore_block_recipe"
+    },
+    {
+      "name": "BronzeBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_block_ore_recipe"
+    },
+    {
+      "name": "BronzeOreSmelting",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_ore_smelting"
+    },
+    {
+      "name": "BronzePickaxe",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_pickaxe"
+    },
+    {
+      "name": "BronzeAxe",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_axe"
+    },
+    {
+      "name": "BronzeSword",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_sword"
+    },
+    {
+      "name": "BronzeShovel",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_shovel"
+    },
+    {
+      "name": "BronzeHoe",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_hoe"
+    },
+    {
+      "name": "BronzePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_pickaxe_recipe"
+    },
+    {
+      "name": "BronzeAxeRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_axe_recipe"
+    },
+    {
+      "name": "BronzeSwordRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_sword_recipe"
+    },
+    {
+      "name": "BronzeShovelRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_shovel_recipe"
+    },
+    {
+      "name": "BronzeHoeRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_hoe_recipe"
+    },
+    {
+      "name": "BronzeArmor",
+      "type": "armor",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BronzeArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_armor_helmet_recipe"
+    },
+    {
+      "name": "BronzeArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_armor_body_recipe"
+    },
+    {
+      "name": "BronzeArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_armor_leggings_recipe"
+    },
+    {
+      "name": "BronzeArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bronze_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -564,16 +777,26 @@
       "item.quarrycraft.copperhelmet_leggings": "Copper Leggings",
       "item.quarrycraft.copperhelmet_helmet": "Copper Helmet",
       "item.quarrycraft.alchemy_stone_2": "Alchemy Stone",
+      "block.quarrycraft.tinore": "Tinore",
       "item.quarrycraft.alchemy_stone_1": "Alchemy Stone",
       "item.quarrycraft.alchemy_stone_broken": "Broken Alchemy Stone",
       "block.quarrycraft.crystalupgraderpink": "Crystalupgraderpink",
       "item.quarrycraft.alchemy_stone_3": "Alchemy Stone",
+      "item.quarrycraft.bronze_armor_chestplate": "Bronze Chestplate",
       "item.quarrycraft.cupperhoe": "Cupperhoe",
+      "item.quarrycraft.tinignot": "Tin ignot",
       "item.quarrycraft.coppershovel": "Coppershovel",
+      "item.quarrycraft.bronze_ingot": "Bronze",
+      "item.quarrycraft.bronze_axe": "Bronze Axe",
       "block.quarrycraft.fusion_table": "Fusion Table",
+      "item.quarrycraft.bronze_shovel": "Bronze Shovel",
       "item.quarrycraft.copperpickaxe": "Copperpickaxe",
       "block.quarrycraft.cruystalupgraderred": "Cruystalupgraderred",
+      "block.quarrycraft.bronze_block": "Block of Bronze",
+      "item.quarrycraft.bronze_armor_boots": "Bronze Boots",
+      "item.quarrycraft.bronze_sword": "Bronze Sword",
       "item.quarrycraft.alchemy_stone_broken_3": "Broken Alchemy Stone",
+      "item.quarrycraft.bronze_pickaxe": "Bronze Pickaxe",
       "item.quarrycraft.alchemy_stone_broken_2": "Broken Alchemy Stone",
       "block.quarrycraft.crystal_upgrader_blue": "Crystal Upgrader",
       "item.quarrycraft.alchemy_stone_broken_1": "Broken Alchemy Stone",
@@ -582,11 +805,14 @@
       "itemGroup.tabwtf": "WTF",
       "item.quarrycraft.magic_stone": "Magic Stone",
       "block.quarrycraft.copperore": "Copperore",
+      "item.quarrycraft.bronze_armor_leggings": "Bronze Leggings",
       "block.quarrycraft.copperblockore": "Copper block ",
+      "item.quarrycraft.bronze_armor_helmet": "Bronze Helmet",
       "item.quarrycraft.copperhelmet_chestplate": "Copper Body",
       "item.quarrycraft.copperingot": "Copper ingot",
       "item.quarrycraft.coppersword": "Copper sword",
-      "item.quarrycraft.alchemy_stone": "Alchemy Stone"
+      "item.quarrycraft.alchemy_stone": "Alchemy Stone",
+      "item.quarrycraft.bronze_hoe": "Bronze Hoe"
     }
   },
   "workspaceSettings": {

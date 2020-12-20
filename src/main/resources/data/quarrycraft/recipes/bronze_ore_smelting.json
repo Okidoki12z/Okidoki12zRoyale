@@ -1,0 +1,12 @@
+{
+  "group": "quarrycraft",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "quarrycraft:bronze_ore"
+  },
+  "result": {
+    "item": "quarrycraft:bronze_ingot"
+  }
+}
